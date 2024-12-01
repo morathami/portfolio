@@ -76,7 +76,7 @@ function FullProjectTable() {
 
     const data = [
         {
-            key: '20',
+            key: '19',
             name: 'Personal Website v5',
             year: 2022,
             stack: 'ReactJS',
@@ -85,22 +85,13 @@ function FullProjectTable() {
             link: 'https://thamidaulay.com/',
         },
         {
-            key: '19',
-            name: 'Edumonster Game Design',
-            year: 2022,
-            stack: 'Figma',
-            recognition: '',
-            tags: ['gamedev'],
-            link: '#',
-        },
-        {
             key: '18',
             name: 'Cyber Buddy Educational Game',
             year: 2022,
             stack: 'Godot',
             recognition: 'Undergraduate Degree Thesis',
             tags: ['design', 'gamedev'],
-            link: '#',
+            link: 'https://youtu.be/nLoALCyvle8',
         },
         {
             key: '17',
