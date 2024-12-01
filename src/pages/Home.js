@@ -7,7 +7,7 @@ import {Image} from 'antd';
 
 function Home() {
     return (
-        // TODO add: CYBER BUDDY & WHISKERS + download resume as PDF + edit about page (add Tools and change text)
+        // TODO add: CYBER BUDDY & WHISKERS + add youtube video on games page (pake Image antd)
             <Container style={{marginTop:"120px", maxWidth: "1000px", marginBottom:"120px"}}>
                 <Row className="justify-content-center px-0">
                     <Col>

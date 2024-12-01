@@ -265,3 +265,8 @@ a:hover {
       background: transparent;
       border: none;
   }
+  
+  .gridStyle {
+      width: 25%;
+      text-align: center;
+  }
