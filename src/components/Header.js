@@ -46,12 +46,12 @@ function Header() {
             <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className="bg-fav-gradient shadow-sm" style={{minHeight:"100px"}}>
                 <Container>
                     <Navbar.Brand className="size-30-text bold-text">
-                        <Link to="/portfolio/" className="nav-title-link">Thami Daulay</Link>
+                        <Link to="/portfolio" className="nav-title-link">Thami Daulay</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="flex-row-reverse">
                         <Nav>
-                            <Link to="/portfolio/" className="marginright-5 nav-link">works</Link>
+                            <Link to="/portfolio" className="marginright-5 nav-link">works</Link>
                             <Link to="/portfolio/about" className="marginright-5 nav-link">about</Link>
                             <button id="nav-button" className="marginright-5 nav-link" onClick={bottomFunction}>contact</button>
                         </Nav>
