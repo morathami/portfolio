@@ -35,18 +35,18 @@ const Footer = () => {
                         <Container style={{paddingTop:"30px"}}>
                             <Row>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="mailto:thamidaulay@gmail.com" target="_blank" rel="noreferrer noopener">Email</a>
+                                    <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
                                 </Col>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                                    <a className="footer-link" href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener">Medium</a>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://gitlab.com/thami.endamora" target="_blank" rel="noreferrer noopener">GitLab</a>
+                                    <a className="footer-link" href="https://github.com/morathami" target="_blank" rel="noreferrer noopener">GitHub</a>
                                 </Col>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener">Medium</a>
+                                    <a className="footer-link" href="https://gitlab.com/thami.endamora" target="_blank" rel="noreferrer noopener">GitLab</a>
                                 </Col>
                             </Row>
                         </Container>
