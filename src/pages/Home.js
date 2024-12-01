@@ -11,47 +11,57 @@ function Home() {
             <Container style={{marginTop:"120px", maxWidth: "1000px"}}>
                 <Row className="justify-content-center px-0">
                     <Col>
+                        <Link to="/partyplanner">
+                            <Image className="border-radius-20" width={1000} src="https://live.staticflickr.com/65535/54175352936_ac05563390_o.png" />
+                        </Link>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center px-0 mt-5rem">
+                    <Col>
+                        <Link to="/whiskers">
+                            <Image className="border-radius-20" width={1000} src="https://live.staticflickr.com/65535/54174463347_38ee8515c4_o.png" />
+                        </Link>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center px-0 mt-5rem">
+                    <Col>
                         <Link to="/cyberbuddy">
-                            <Image className="border-radius-20" width={1000} src="https://live.staticflickr.com/65535/52569652703_98705cd998_o.png" />
+                            <Image className="border-radius-20" width={1000} src="https://live.staticflickr.com/65535/54175352951_f12d29ddbf_o.png" />
                         </Link>
                     </Col>
                 </Row>
                 <Row className="justify-content-center px-0 mt-5rem">
                     <Col>
                         <Link to="/edumonster">
-                            <Image className="border-radius-20" width={1000} src="https://live.staticflickr.com/65535/52609804587_7f9e9a4cc6_o.png" />
+                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/54174481052_9979e86cfa_o.png" />
                         </Link>
                     </Col>
-                </Row>
-                <Row className="justify-content-center px-0 mt-5rem">
-                    <Col>
+                    <Col style={{textAlign:"right"}} className="px-0">
                         <Link to="/pakobox">
-                            <Image className="border-radius-20" width={1000} src="https://live.staticflickr.com/65535/52632183561_5e870d560a_o.png" />
+                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/54175370236_6bbbfb579f_o.png" />
                         </Link>
                     </Col>
                 </Row>
                 <Row className="justify-content-center px-0 mt-5rem">
                     <Col>
                         <Link to="/lighthearted">
-                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/52568674032_d7de494bc3_o.png" />
+                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/54175626838_c2754c8d93_o.png" />
                         </Link>
                     </Col>
                     <Col style={{textAlign:"right"}} className="px-0">
                         <Link to="/overtower">
-                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/52569441459_82a6dc951f_o.png" />
+                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/54174463337_f107bf7a8b_o.png" />
                         </Link>
                     </Col>
                 </Row>
                 <Row className="justify-content-center px-0 mt-5rem">
                     <Col>
                         <Link to="/ts4fashion">
-                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/52606651655_14fde40d09_o.png" />
+                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/54175809370_16a0db3862_o.png" />
                         </Link>
                     </Col>
                     <Col style={{textAlign:"right"}} className="px-0">
-                        <Link to="/webglmodel">
-                            <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/52569163306_8d431e3cfa_o.png" />
-                        </Link>
+                        <Image className="border-radius-20" width={462} src="https://live.staticflickr.com/65535/54175367766_6c4627bdae_o.png" />
                     </Col>
                 </Row>
                 
