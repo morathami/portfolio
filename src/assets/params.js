@@ -1,5 +1,5 @@
 export const headerTextLst = {
-    "/portfolio" : "Hi, I'm Thami!",
+    "/portfolio/" : "Hi, I'm Thami!",
     "/portfolio/about": "Hi, I'm Thami!",
     "/portfolio/lighthearted": "Lighthearted Game",
     "/portfolio/overtower": "Overtower Game",
@@ -11,7 +11,7 @@ export const headerTextLst = {
 }
 
 export const subheaderTextLst = {
-    "/portfolio" : "an aspiring game developer",
+    "/portfolio/" : "an aspiring game developer",
     "/portfolio/about": "an aspiring game developer",
     "/portfolio/lighthearted": "a happiness-themed puzzle platformer game",
     "/portfolio/overtower": "a roguelike platformer game",

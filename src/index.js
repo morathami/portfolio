@@ -20,7 +20,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/portfolio" element={<Layout />}>
+        <Route path="/portfolio/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="lighthearted" element={<WorksLighthearted />} />
