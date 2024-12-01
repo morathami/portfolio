@@ -1,0 +1,16 @@
+.workscard-yellow:hover {
+    border: 3px solid #FFDD5C;
+}
+
+.workscard-pink:hover {
+    border: 3px solid #F08B97;
+}
+
+.workscard-container a {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.ant-image#workscard-image {
+    width: 60%;
+}

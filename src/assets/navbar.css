@@ -1,0 +1,25 @@
+.nav-title-link, .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-title-link, .navbar-dark .navbar-nav .nav-link:hover {
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size:20px;
+}
+
+.nav-title-link {
+    font-size: 25px;
+}
+
+.nav-title-link:hover {
+    color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F6AA81 !important;
+}

@@ -1,0 +1,21 @@
+#about-story p {
+    font-size: 17px;
+}
+
+.about-lst h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #F6AA81;
+    margin-bottom: 0;
+}
+
+.about-lst h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.about-lst p {
+    font-size: 17px;
+    margin-bottom: 0;
+}
