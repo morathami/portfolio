@@ -77,18 +77,18 @@ const TemplateWorks = () => {
                 </Col>
             </Row>
 
-            <Row id="play-button">
-                <Row className="fullwidth-button-container text-center">
-                    <h5 className="semibold-text size-20-text mb-0 mt-4 orange-color">WATCH PLAY DEMO ON YOUTUBE</h5>
-                    <a href="https://youtu.be/nLoALCyvle8" target="_blank" rel="noreferrer noopener">
-                        <button size="large" shape="round"
-                                className="ant-btn ant-btn-round ant-btn-default ant-btn-lg mt-1 mb-5 orange-button"
-                                type="button">
-                            <span className="semibold-text size-20-text">bit.ly/CyberBuddyPlayDemo</span>
-                        </button>
-                    </a>
-                </Row>
-            </Row>
+            {/*<Row id="play-button">*/}
+            {/*    <Row className="fullwidth-button-container text-center">*/}
+            {/*        <h5 className="semibold-text size-20-text mb-0 mt-4 orange-color">WATCH PLAY DEMO ON YOUTUBE</h5>*/}
+            {/*        <a href="https://youtu.be/nLoALCyvle8" target="_blank" rel="noreferrer noopener">*/}
+            {/*            <button size="large" shape="round"*/}
+            {/*                    className="ant-btn ant-btn-round ant-btn-default ant-btn-lg mt-1 mb-5 orange-button"*/}
+            {/*                    type="button">*/}
+            {/*                <span className="semibold-text size-20-text">bit.ly/CyberBuddyPlayDemo</span>*/}
+            {/*            </button>*/}
+            {/*        </a>*/}
+            {/*    </Row>*/}
+            {/*</Row>*/}
 
             <hr/>
             <Row id="design-process" style={{marginTop: "50px", marginBottom: "50px"}}>

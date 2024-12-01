@@ -7,7 +7,7 @@ import {Image} from 'antd';
 
 function Home() {
     return (
-        // TODO add: CYBER BUDDY & WHISKERS + add youtube video on games page (pake Image antd)
+        // TODO add: CYBER BUDDY & WHISKERS + add youtube video on games page
             <Container style={{marginTop:"120px", maxWidth: "1000px", marginBottom:"120px"}}>
                 <Row className="justify-content-center px-0">
                     <Col>

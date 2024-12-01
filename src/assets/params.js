@@ -1,6 +1,7 @@
 export const headerTextLst = {
+    "/portfolio" : "Hi, I'm Thami!",
     "/portfolio/" : "Hi, I'm Thami!",
-    "/portfolio/about": "Hi, I'm Thami!",
+    "/portfolio/about": "Who is Thami?",
     "/portfolio/lighthearted": "Lighthearted Game",
     "/portfolio/overtower": "Overtower Game",
     "/portfolio/webglmodel": "WebGL 3D Model",
@@ -11,8 +12,9 @@ export const headerTextLst = {
 }
 
 export const subheaderTextLst = {
+    "/portfolio" : "an aspiring game developer",
     "/portfolio/" : "an aspiring game developer",
-    "/portfolio/about": "an aspiring game developer",
+    "/portfolio/about": "a little about me",
     "/portfolio/lighthearted": "a happiness-themed puzzle platformer game",
     "/portfolio/overtower": "a roguelike platformer game",
     "/portfolio/webglmodel": "a WebGL-based interactive 3D models",
@@ -24,6 +26,7 @@ export const subheaderTextLst = {
 
 export const titleLst = {
     "/portfolio" : "",
+    "/portfolio/" : "",
     "/portfolio/about": "About | ",
     "/portfolio/lighthearted": "Lighthearted Game | ",
     "/portfolio/overtower": "Overtower Game | ",
@@ -36,6 +39,7 @@ export const titleLst = {
 
 export const imageLinkLst = {
     "/portfolio" : "",
+    "/portfolio/" : "",
     "/portfolio/about": "",
     "/portfolio/lighthearted": "https://live.staticflickr.com/65535/52549227785_3ae4303e43_o.png",
     "/portfolio/overtower": "https://live.staticflickr.com/65535/52607041524_2cc0071076_o.png",
@@ -48,6 +52,7 @@ export const imageLinkLst = {
 
 export const imageCardLst = {
     "/portfolio" : "",
+    "/portfolio/" : "",
     "/portfolio/about": "",
     "/portfolio/lighthearted": "",
     "/portfolio/overtower": "",

@@ -9,7 +9,7 @@ const About = () => {
         <Container style={{marginTop: "120px", marginBottom: "120px"}}>
             <Row>
                 <Col id="about-story">
-                    <p>Hi, there! My name is Thami 👋🏻</p>
+                    <p>Hi, there! My name is Thami Endamora Daulay. You can call me Thami👋🏻</p>
                     <p>My interest in <b>Game Design</b> started when I was just a child, sketching my own “game” and
                         performing “user testing” using Barbie dolls. Then, the first time I really got into video games
                         was in middle
@@ -47,12 +47,13 @@ const About = () => {
 
             <Row>
                 <Col>
-                    {/* TODO add link resume to google drive */}
+                    <a href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing" target="_blank"
+                       rel="noreferrer noopener">
                     <button size="large" shape="round"
                             className="ant-btn ant-btn-round ant-btn-default ant-btn-lg my-5 orange-button"
                             type="button">
                         <span className="semibold-text size-20-text">Download resume as PDF</span>
-                    </button>
+                    </button></a>
                 </Col>
             </Row>
             <Row style={{marginTop: "50px"}}>
@@ -61,11 +62,11 @@ const About = () => {
                         <Row>
                             <Col className="about-lst">
                                 <h1>education</h1>
-                                <h2>MA in Digital Media: Production</h2>
+                                <h2>Master's in Digital Media: Production (MA)</h2>
                                 <p>University College London (UCL)</p>
                                 <p>2023 - 2024</p>
 
-                                <h2 style={{marginTop: "30px"}}>Bachelor of Computer Science (BCompSc)</h2>
+                                <h2 style={{marginTop: "30px"}}>Bachelor of Computer Science (B.CompSc.)</h2>
                                 <p>University of Indonesia</p>
                                 <p>2018 - 2022</p>
                             </Col>
