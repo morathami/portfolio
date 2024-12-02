@@ -186,12 +186,29 @@ a:hover {
 
 .text-fav-gradient {
     background: rgb(236, 132, 152);
-    background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 100%);
-    background: linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec8498", endColorstr="#fdd363", GradientType=1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+    background-clip: text !important;
+}
+
+.about-text-fav-gradient {
+    background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 50%);
+    background: linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 50%);
+}
+
+.works-text-fav-gradient {
+    background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 20%, rgba(253, 211, 99, 1) 80%);
+    background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 20%, rgba(253, 211, 99, 1) 80%);
+    background: linear-gradient(90deg, rgba(236, 132, 152, 1) 20%, rgba(253, 211, 99, 1) 80%);
+}
+
+.skills-text-fav-gradient {
+    background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 40%, rgba(253, 211, 99, 1) 65%);
+    background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 40%, rgba(253, 211, 99, 1) 65%);
+    background: linear-gradient(90deg, rgba(236, 132, 152, 1) 40%, rgba(253, 211, 99, 1) 65%);
 }
 
 .ant-image#img-content {
@@ -328,4 +345,13 @@ a:hover {
 
 .body-text-line-height {
     line-height: 1.5;
+}
+
+.margin-top-200{
+    margin-top: 200px !important;
+}
+
+.skills-button {
+    background: #F8F8F8;
+    color: #212529;
 }

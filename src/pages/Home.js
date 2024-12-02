@@ -9,11 +9,11 @@ import { DownloadOutlined } from '@ant-design/icons';
 function Home() {
     return (
         // TODO add: CYBER BUDDY & WHISKERS & IMPRINTCORP + add youtube video on games page
-        <Container style={{marginTop: "180px", maxWidth: "1000px", marginBottom: "180px"}}
-                   className="text-center justify-content-center">
+        <Container style={{maxWidth: "1000px", marginBottom: "180px"}}
+                   className="text-center justify-content-center margin-top-200">
             <Row>
                 <Col style={{textAlign: "left"}} className="px-5">
-                    <h1 className="bold-text size-36-text text-fav-gradient">About me</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">About me</h1>
                     <p className="size-17-text mt-4 body-text-line-height">My name is Thami. Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -21,6 +21,11 @@ function Home() {
                     <p className="size-17-text mt-4 body-text-line-height">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                         deserunt mollit anim id est laborum.</p>
+                    <Container>
+                        <Row>
+                            <Col><Button type="primary" shape="circle" className="skills-button" icon={<DownloadOutlined />} size="large" /></Col>
+                        </Row>
+                    </Container>
                     <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
                         <Row>
                             <Col><Link to="/portfolio/about"><Button color="primary" variant="outlined"
@@ -35,6 +40,42 @@ function Home() {
                            src="https://live.staticflickr.com/65535/54175352936_ac05563390_o.png"/>
                 </Col>
             </Row>
+
+            <Row className="margin-top-200">
+                <Col className="px-5">
+                    <h1 className="bold-text size-36-text text-fav-gradient skills-text-fav-gradient">Key Skills</h1>
+                </Col>
+            </Row>
+            <Row className="mt-3" style={{maxWidth:"700px", margin:"auto"}}>
+                <Col>
+                    <Container style={{background: "#F8F8F8", width:"200px", height:"200px", borderRadius: "10%"}}>
+                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px" height="100px" src="https://live.staticflickr.com/65535/54175549771_07e0feed0e_o.png"/></Col></Row>
+                        <Row><Col><p className="semibold-text size-17-text pb-0 mb-0 mt-3">Game Design</p></Col></Row>
+                        <Row><Col><p className="size-12-text">Elements (Mechanic, etc.)</p></Col></Row>
+                    </Container>
+                </Col>
+                <Col>
+                    <Container style={{background: "#F8F8F8", width:"200px", height:"200px", borderRadius: "10%"}}>
+                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px" height="100px" src="https://live.staticflickr.com/65535/54175549771_07e0feed0e_o.png"/></Col></Row>
+                        <Row><Col><p className="semibold-text size-17-text pb-0 mb-0 mt-3">Programming</p></Col></Row>
+                        <Row><Col><p className="size-12-text">Unity (C#), Godot, JS</p></Col></Row>
+                    </Container>
+                </Col>
+                <Col>
+                    <Container style={{background: "#F8F8F8", width:"200px", height:"200px", borderRadius: "10%"}}>
+                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px" height="100px" src="https://live.staticflickr.com/65535/54175549771_07e0feed0e_o.png"/></Col></Row>
+                        <Row><Col><p className="semibold-text size-17-text pb-0 mb-0 mt-3">UI/UX Design</p></Col></Row>
+                        <Row><Col><p className="size-12-text">Figma, Photoshop</p></Col></Row>
+                    </Container>
+                </Col>
+            </Row>
+            
+            <Row className="margin-top-200">
+                <Col className="px-5">
+                    <h1 className="bold-text size-36-text text-fav-gradient works-text-fav-gradient">Selected Works</h1>
+                </Col>
+            </Row>
+
             <Row className="justify-content-center px-0">
                 <Col>
                     <Link to="/portfolio/partyplanner">

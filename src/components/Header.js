@@ -51,9 +51,10 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="flex-row-reverse">
                         <Nav>
-                            <Link to="/portfolio/" className="marginright-5 nav-link">works</Link>
-                            <Link to="/portfolio/about" className="marginright-5 nav-link">about</Link>
-                            <button id="nav-button" className="marginright-5 nav-link" onClick={bottomFunction}>contact</button>
+                            <Link to="/portfolio/" className="marginright-5 nav-link">Home</Link>
+                            <Link to="/portfolio/about" className="marginright-5 nav-link">About</Link>
+                            <Link to="/portfolio/works" className="marginright-5 nav-link">Works</Link>
+                            <button id="nav-button" className="marginright-5 nav-link" onClick={bottomFunction}>Contact</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

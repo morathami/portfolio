@@ -28,12 +28,14 @@ const Footer = () => {
                 <Row>
                     <Col>
                         <p className="semibold-text orange-color size-25-text mb-0">Thami Daulay</p>
-                        <p className="mb-0"><a className="footer-link" href="mailto:thamidaulay@gmail.com" target="_blank" rel="noreferrer noopener">thamidaulay@gmail.com</a></p>
+                        <p className="mb-0"><a className="footer-link" href="mailto:thamidaulay@gmail.com"
+                                               target="_blank" rel="noreferrer noopener">thamidaulay@gmail.com</a></p>
                         <p className="mb-0">portfolio coded with love by thami daulay &#129505;</p>
+                        <p>icons created by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon icons">wanicon</a> - Flaticon</p>
                     </Col>
                     <Col xs={2}>
-                        <Container style={{paddingTop:"30px"}}>
-                            <Row>
+                        <Container style={{paddingTop: "30px"}}>
+                        <Row>
                                 <Col style={{textAlign: "right"}}>
                                     <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
                                 </Col>
