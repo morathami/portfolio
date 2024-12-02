@@ -58,14 +58,14 @@ function Header() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className="full-welcome bg-fav-gradient text-white">
-                <Container>
+            <div className={`full-welcome bg-fav-gradient text-white justify-content-center ${centerActive ? "full-header-height" : ""}`}>
+                <Container className={`text-center justify-content-center ${centerActive ? "centered-container" : ""}`}>
                     <Row>
                         <Col className={`${centerActive ? "text-center" : ""}`}>
                             <h1 className={`bold-text ${centerActive ? "size-60-text" : "size-50-text maxHeaderTitle"}`}>
                                 {headerText}
                             </h1>
-                            <h2 className="semibold-text size-25-text">{subheaderText}</h2>
+                            <h2 className={`semibold-text size-25-text ${centerActive ? "italic-text" : ""}`}>{subheaderText}</h2>
                         </Col>
                         <Col className={`${centerActive ? "imageHidden" : ""}`}>
                             <Image id="header-image" width={300} preview={false} src={imageLink} />
