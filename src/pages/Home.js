@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import {Button, Image} from 'antd';
 import {DownloadOutlined, SmileFilled} from '@ant-design/icons';
 import Works from "../components/Works";
+import ImageThami from '../assets/image-thami.jpg';
 
 function Home() {
     return (
@@ -13,16 +14,15 @@ function Home() {
         <Container style={{maxWidth: "1000px", marginBottom: "180px"}}
                    className="text-center justify-content-center margin-top-200">
             <Row>
-                <Col style={{textAlign: "left"}} className="px-5">
+                <Col style={{textAlign: "left"}} className="px-5 my-auto">
                     <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">About me</h1>
-                    <p className="size-17-text mt-4 body-text-line-height">My name is Thami. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p className="size-17-text mt-4 body-text-line-height">Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.</p>
+                    <p className="size-17-text mt-4 body-text-line-height">Hello! I’m Thami Endamora Daulay, though most
+                        people call me Thami. I’m an aspiring game developer based in Jakarta, Indonesia.</p>
+                    <p className="size-17-text mt-4 body-text-line-height">I began my gamedev-related journey with a
+                        degree in computer science in 2018 and later in September 2024, I officially received my
+                        master’s degree in digital media production from University College London, UK!</p>
+                    <p className="size-17-text mt-4 body-text-line-height">I’m always excited to collaborate or connect
+                        with like-minded individuals from anywhere in the world, so feel free to reach out!</p>
                     <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
                         <Row>
                             <Col lg={5}><Link to="/portfolio/about" target="_blank" rel="noreferrer noopener"><Button
@@ -38,8 +38,7 @@ function Home() {
                     </Container>
                 </Col>
                 <Col>
-                    <Image width={480} height={500} preview={false}
-                           src="https://live.staticflickr.com/65535/54175352936_ac05563390_o.png"/>
+                    <Image style={{borderRadius: "50px"}} width={480} height={500} preview={false} src={ImageThami}/>
                 </Col>
             </Row>
 
