@@ -384,3 +384,15 @@ a:hover {
 .margin-left-20 {
     margin-left: 20px !important;
 }
+
+.contact-card {
+    margin-top: 300px !important;
+    border-radius: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.color-white {
+    color: #ffffff !important;
+}

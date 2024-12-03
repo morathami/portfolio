@@ -4,7 +4,7 @@ import '../assets/works.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import {Link} from "react-router-dom";
 import {Button, Image} from 'antd';
-import { DownloadOutlined } from '@ant-design/icons';
+import {DownloadOutlined, SmileFilled} from '@ant-design/icons';
 import Works from "../components/Works";
 
 function Home() {
@@ -19,13 +19,21 @@ function Home() {
                         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.</p>
-                    <p className="size-17-text mt-4 body-text-line-height">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    <p className="size-17-text mt-4 body-text-line-height">Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu
                         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                         deserunt mollit anim id est laborum.</p>
                     <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
                         <Row>
-                            <Col lg={5}><Link to="/portfolio/about" target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined" className="pink-secondary-button mt-4">Read more</Button></Link></Col>
-                            <Col lg={7}><a href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing" target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined" icon={<DownloadOutlined/>} className="pink-main-button mt-4">Download resume</Button></a></Col>
+                            <Col lg={5}><Link to="/portfolio/about" target="_blank" rel="noreferrer noopener"><Button
+                                color="primary" variant="outlined" className="pink-secondary-button mt-4">Read
+                                more</Button></Link></Col>
+                            <Col lg={7}><a
+                                href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing"
+                                target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined"
+                                                                                  icon={<DownloadOutlined/>}
+                                                                                  className="pink-main-button mt-4">Download
+                                resume</Button></a></Col>
                         </Row>
                     </Container>
                 </Col>
@@ -40,30 +48,36 @@ function Home() {
                     <h1 className="bold-text size-36-text text-fav-gradient skills-text-fav-gradient">Key Skills</h1>
                 </Col>
             </Row>
-            <Row className="mt-3" style={{maxWidth:"700px", margin:"auto"}}>
+            <Row className="mt-3" style={{maxWidth: "700px", margin: "auto"}}>
                 <Col>
-                    <Container style={{background: "#F8F8F8", width:"200px", height:"200px", borderRadius: "10%"}}>
-                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px" height="100px" src="https://live.staticflickr.com/65535/54180270449_03a506ea3e_o.png"/></Col></Row>
+                    <Container style={{background: "#F8F8F8", width: "200px", height: "200px", borderRadius: "10%"}}>
+                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px"
+                                                          height="100px"
+                                                          src="https://live.staticflickr.com/65535/54180270449_03a506ea3e_o.png"/></Col></Row>
                         <Row><Col><p className="semibold-text size-17-text pb-0 mb-0 mt-3">Game Design</p></Col></Row>
                         <Row><Col><p className="size-12-text">Elements (Mechanic, etc.)</p></Col></Row>
                     </Container>
                 </Col>
                 <Col>
-                    <Container style={{background: "#F8F8F8", width:"200px", height:"200px", borderRadius: "10%"}}>
-                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px" height="100px" src="https://live.staticflickr.com/65535/54179911961_1b717b5b5a_o.png"/></Col></Row>
+                    <Container style={{background: "#F8F8F8", width: "200px", height: "200px", borderRadius: "10%"}}>
+                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px"
+                                                          height="100px"
+                                                          src="https://live.staticflickr.com/65535/54179911961_1b717b5b5a_o.png"/></Col></Row>
                         <Row><Col><p className="semibold-text size-17-text pb-0 mb-0 mt-3">Programming</p></Col></Row>
                         <Row><Col><p className="size-12-text">Unity (C#), Godot, JS</p></Col></Row>
                     </Container>
                 </Col>
                 <Col>
-                    <Container style={{background: "#F8F8F8", width:"200px", height:"200px", borderRadius: "10%"}}>
-                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px" height="100px" src="https://live.staticflickr.com/65535/54179092322_7bf681561c_o.png"/></Col></Row>
+                    <Container style={{background: "#F8F8F8", width: "200px", height: "200px", borderRadius: "10%"}}>
+                        <Row className="pt-4"><Col><Image preview={false} className="border-radius-20" width="100px"
+                                                          height="100px"
+                                                          src="https://live.staticflickr.com/65535/54179092322_7bf681561c_o.png"/></Col></Row>
                         <Row><Col><p className="semibold-text size-17-text pb-0 mb-0 mt-3">UI/UX Design</p></Col></Row>
                         <Row><Col><p className="size-12-text">Figma, Photoshop</p></Col></Row>
                     </Container>
                 </Col>
             </Row>
-            
+
             <Row className="margin-top-200">
                 <Col className="px-5">
                     <h1 className="bold-text size-36-text text-fav-gradient works-text-fav-gradient">Selected Works</h1>
@@ -80,7 +94,7 @@ function Home() {
                 workLink: '/portfolio/partyplanner',
                 videoLink: 'https://www.youtube.com/watch?v=BnPsXnNiv-8'
             }}/></Col></Row>
-            
+
             <Row style={{marginTop: "120px"}}><Col className="px-0"><Works leftImage={true} workConfig={{
                 imageSrc: 'https://live.staticflickr.com/65535/54174463347_38ee8515c4_o.png',
                 title: 'Whiskers',
@@ -91,7 +105,7 @@ function Home() {
                 workLink: '/portfolio/whiskers',
                 videoLink: 'https://www.youtube.com/watch?v=mYdnO-KaCT8'
             }}/></Col></Row>
-            
+
             <Row style={{marginTop: "120px"}}><Col className="px-0"><Works leftImage={false} workConfig={{
                 imageSrc: 'https://live.staticflickr.com/65535/54175352951_f12d29ddbf_o.png',
                 title: 'Cyber Buddy',
@@ -103,6 +117,21 @@ function Home() {
                 videoLink: 'https://www.youtube.com/watch?v=nLoALCyvle8'
             }}/></Col></Row>
             
+            <Row style={{marginTop:"100px"}}>
+                <Col className="px-0">
+                    <Link to="/portfolio/works" target="_blank" rel="noreferrer noopener"><Button
+                    color="primary" variant="outlined" className="pink-secondary-button px-0" style={{width:"100%", height:"50px"}}>View more projects</Button></Link>
+                </Col>
+            </Row>
+
+            <Row className="contact-card bg-fav-gradient">
+                <Col className="px-5">
+                    <h1 className="bold-text size-40-text">Let’s connect! <SmileFilled /></h1>
+                    <h1 className="semibold-text size-20-text mt-4">Drop me a message
+                        at <a href="mailto:thamidaulay@gmail.com" className="color-white" target="_blank" rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></h1>
+                </Col>
+            </Row>
+
 
             {/*<Row className="justify-content-center px-0">*/}
             {/*    <Col>*/}
@@ -162,7 +191,7 @@ function Home() {
             {/*        </Link>*/}
             {/*    </Col>*/}
             {/*</Row>*/}
-            
+
             {/*<Row className="justify-content-center px-0 mt-5rem">*/}
             {/*    <Col>*/}
             {/*        <Link to="/portfolio/ts4fashion">*/}
