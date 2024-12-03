@@ -11,9 +11,11 @@ import WorksCyberBuddy from './pages/WorksCyberBuddy';
 import WorksTS4Fashion from './pages/WorksTS4Fashion';
 import WorksEdumonster from './pages/WorksEdumonster';
 import WorksPakobox from './pages/WorksPakobox';
+import AllWorks from "./pages/AllWorks";
 import NotFound from './pages/NotFound';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
+
 
 
 export default function App() {
@@ -23,6 +25,7 @@ export default function App() {
         <Route path="/portfolio/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="works" element={<AllWorks />} />
           <Route path="lighthearted" element={<WorksLighthearted />} />
           <Route path="overtower" element={<WorksOvertower />} />
           <Route path="webglmodel" element={<WorksWebGLModel />} />

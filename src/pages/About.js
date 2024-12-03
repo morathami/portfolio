@@ -6,6 +6,7 @@ import {Image, Tooltip} from 'antd';
 
 const About = () => {
     return (
+        // TODO
         <Container style={{marginTop: "120px", marginBottom: "120px"}}>
             <Row>
                 <Col id="about-story">

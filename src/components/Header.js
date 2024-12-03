@@ -33,7 +33,7 @@ function Header() {
             setSubheaderText(subheaderTextLst[locname]);
             setImageLink(imageLinkLst[locname]);
             document.title = titleLst[locname] + "Thami Daulay";
-            if (!headerCheck.startsWith("Hi") && !headerCheck.startsWith("Who")) {
+            if (!headerCheck.startsWith("Hi") && !headerCheck.startsWith("Who") && !headerCheck.startsWith("All")) {
                 activateCenter(false);
             } else {
                 activateCenter(true);
