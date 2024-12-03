@@ -1,7 +1,14 @@
 import React from "react";
 import {Container, Row, Col} from 'react-bootstrap';
 import {Button} from "antd";
-import {ArrowUpOutlined} from '@ant-design/icons';
+import {
+    ArrowUpOutlined,
+    GithubFilled,
+    HeartFilled,
+    LinkedinFilled,
+    MailFilled,
+    MediumSquareFilled
+} from '@ant-design/icons';
 import "../assets/main.css";
 import "../assets/footer.css";
 
@@ -27,30 +34,39 @@ const Footer = () => {
             <Container className="container-footer-text">
                 <Row>
                     <Col>
-                        <p className="semibold-text orange-color size-25-text mb-0">Thami Daulay</p>
-                        <p className="mb-0"><a className="footer-link" href="mailto:thamidaulay@gmail.com"
-                                               target="_blank" rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></p>
-                        <p className="mb-0">portfolio coded with love by thami daulay &#129505;</p>
+                        <p className="semibold-text orange-color size-30-text mb-0">Thami Daulay</p>
+                        {/*<p className="mb-0"><a className="footer-link" href="mailto:thamidaulay@gmail.com"*/}
+                        {/*                       target="_blank" rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></p>*/}
+                        <p className="mb-0">portfolio coded with love by thami daulay <HeartFilled /> 2022-2024</p>
                         <p>icons created by <a className="footer-link" href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank" rel="noreferrer noopener">Freepik</a> - Flaticon</p>
                     </Col>
-                    <Col xs={2}>
+                    <Col xs={4}>
                         <Container style={{paddingTop: "30px"}}>
-                        <Row>
-                                <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener" title="Linkedin">LinkedIn</a>
-                                </Col>
-                                <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener" title="Medium">Medium</a>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://github.com/morathami" target="_blank" rel="noreferrer noopener" title="GitHub">GitHub</a>
-                                </Col>
-                                <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://gitlab.com/thami.endamora" target="_blank" rel="noreferrer noopener" title="GitLab">GitLab</a>
-                                </Col>
-                            </Row>
+                        {/*<Row>*/}
+                        {/*    <Col>*/}
+                        {/*        <LinkedinFilled /><a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/"*/}
+                        {/*           target="_blank" rel="noreferrer noopener" title="Linkedin">linkedin.com/in/thami-endamora/</a>*/}
+                        {/*    </Col>*/}
+                        {/*    <Col style={{textAlign: "right"}}>*/}
+                        {/*        <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener" title="Linkedin">LinkedIn</a>*/}
+                        {/*        </Col>*/}
+                        {/*        <Col style={{textAlign: "right"}}>*/}
+                        {/*            <a className="footer-link" href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener" title="Medium">Medium</a>*/}
+                        {/*        </Col>*/}
+                        {/*    <Col style={{textAlign: "right"}}>*/}
+                        {/*        <a className="footer-link" href="https://github.com/morathami" target="_blank" rel="noreferrer noopener" title="GitHub">GitHub</a>*/}
+                        {/*    </Col>*/}
+                        {/*    </Row>*/}
+                        {/*    <Row>*/}
+                        {/*        */}
+                        {/*        <Col style={{textAlign: "right"}}>*/}
+                        {/*            <a className="footer-link" href="https://gitlab.com/thami.endamora" target="_blank" rel="noreferrer noopener" title="GitLab">GitLab</a>*/}
+                        {/*        </Col>*/}
+                        {/*    </Row>*/}
+                            <Row><Col><MailFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="mailto:thamidaulay@gmail.com" target="_blank" rel="noreferrer noopener" title="Email">thamidaulay@gmail.com</a></Col></Row>
+                            <Row><Col><LinkedinFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener" title="Linkedin">linkedin.com/in/thami-endamora</a></Col></Row>
+                            <Row><Col><GithubFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="https://github.com/morathami" target="_blank" rel="noreferrer noopener" title="Github">github.com/morathami</a></Col></Row>
+                            <Row><Col><MediumSquareFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener" title="Medium">medium.com/@thamiendamora</a></Col></Row>
                         </Container>
                     </Col>
                 </Row>

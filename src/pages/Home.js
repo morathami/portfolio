@@ -85,50 +85,49 @@ function Home() {
             </Row>
 
             <Row style={{marginTop: "50px"}}><Col className="px-0"><Works leftImage={false} workConfig={{
-                imageSrc: 'https://live.staticflickr.com/65535/54175352936_ac05563390_o.png',
                 title: 'Party Planner',
                 year: '2024',
-                desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                desc: '2D top-down collaborative storytelling game for two players. Key Features: Allow players to shape the storyline through their actions and choices rather than following a fixed narrative, while encouraging collaboration to complete the challenges together.',
                 engine: 'Unity',
                 research: true,
                 workLink: '/portfolio/partyplanner',
-                videoLink: 'https://www.youtube.com/watch?v=BnPsXnNiv-8'
+                videoLink: 'https://www.youtube.com/embed/BnPsXnNiv-8?si=ytJCIzw91xQ_nD_D'
             }}/></Col></Row>
 
             <Row style={{marginTop: "120px"}}><Col className="px-0"><Works leftImage={true} workConfig={{
-                imageSrc: 'https://live.staticflickr.com/65535/54174463347_38ee8515c4_o.png',
                 title: 'Whiskers',
                 year: '2024',
-                desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                desc: '3D first-person cat simulation exploration game that thoughtfully explores and reflects real-life cats’ care and behaviour. Key Features: Discover and consume edible foods while avoiding toxic ones, find hidden items, and unlock achievements.',
                 engine: 'Unity',
                 research: false,
                 workLink: '/portfolio/whiskers',
-                videoLink: 'https://www.youtube.com/watch?v=mYdnO-KaCT8'
+                videoLink: 'https://www.youtube.com/embed/mYdnO-KaCT8?si=NURIFh0kQZhUvsaS'
             }}/></Col></Row>
 
             <Row style={{marginTop: "120px"}}><Col className="px-0"><Works leftImage={false} workConfig={{
-                imageSrc: 'https://live.staticflickr.com/65535/54175352951_f12d29ddbf_o.png',
                 title: 'Cyber Buddy',
                 year: '2022',
-                desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                desc: 'Educational game to prevent cyberbullying among primary school students. Key Features: Social Media Simulation Apps where players choose the most appropriate response and reflect on how they would feel receiving certain messages, Avatar Customisation',
                 engine: 'Godot',
                 research: true,
                 workLink: '/portfolio/cyberbuddy',
-                videoLink: 'https://www.youtube.com/watch?v=nLoALCyvle8'
+                videoLink: 'https://www.youtube.com/embed/nLoALCyvle8?si=pZBi8gwYW_2X72uu'
             }}/></Col></Row>
-            
-            <Row style={{marginTop:"100px"}}>
+
+            <Row style={{marginTop: "100px"}}>
                 <Col className="px-0">
                     <Link to="/portfolio/works" target="_blank" rel="noreferrer noopener"><Button
-                    color="primary" variant="outlined" className="pink-secondary-button px-0" style={{width:"100%", height:"50px"}}>View more projects</Button></Link>
+                        color="primary" variant="outlined" className="pink-secondary-button px-0"
+                        style={{width: "100%", height: "50px"}}>View more projects</Button></Link>
                 </Col>
             </Row>
 
             <Row className="contact-card bg-fav-gradient">
                 <Col className="px-5">
-                    <h1 className="bold-text size-40-text">Let’s connect! <SmileFilled /></h1>
+                    <h1 className="bold-text size-40-text">Let’s connect! <SmileFilled/></h1>
                     <h1 className="semibold-text size-20-text mt-4">Drop me a message
-                        at <a href="mailto:thamidaulay@gmail.com" className="color-white" target="_blank" rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></h1>
+                        at <a href="mailto:thamidaulay@gmail.com" className="color-white" target="_blank"
+                              rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></h1>
                 </Col>
             </Row>
 

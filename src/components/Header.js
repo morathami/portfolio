@@ -66,7 +66,7 @@ function Header() {
                             <h1 className={`bold-text ${centerActive ? "size-60-text" : "size-50-text maxHeaderTitle"}`}>
                                 {headerText}
                             </h1>
-                            <h2 className={`semibold-text size-25-text ${centerActive ? "italic-text" : ""}`}>{subheaderText}</h2>
+                            <h2 className={`semibold-text size-20-text ${centerActive ? "italic-text" : ""}`}>{subheaderText}</h2>
                         </Col>
                         <Col className={`${centerActive ? "imageHidden" : ""}`}>
                             <Image id="header-image" width={300} preview={false} src={imageLink} />

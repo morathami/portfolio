@@ -71,12 +71,12 @@ body, html, .main {
     font-family: 'Poppins', sans-serif;
 }
 
-a, .orange-color {
+.orange-color {
     color: #F6AA81 !important;
 }
 
 a:hover {
-    color: #E1804C !important;
+    color: #EE809E !important;
 }
 
 .orange-button {
