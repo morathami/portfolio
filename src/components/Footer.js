@@ -29,26 +29,26 @@ const Footer = () => {
                     <Col>
                         <p className="semibold-text orange-color size-25-text mb-0">Thami Daulay</p>
                         <p className="mb-0"><a className="footer-link" href="mailto:thamidaulay@gmail.com"
-                                               target="_blank" rel="noreferrer noopener">thamidaulay@gmail.com</a></p>
+                                               target="_blank" rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></p>
                         <p className="mb-0">portfolio coded with love by thami daulay &#129505;</p>
-                        <p>icons created by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon icons">wanicon</a> - Flaticon</p>
+                        <p>icons created by <a className="footer-link" href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank" rel="noreferrer noopener">Freepik</a> - Flaticon</p>
                     </Col>
                     <Col xs={2}>
                         <Container style={{paddingTop: "30px"}}>
                         <Row>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                                    <a className="footer-link" href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener" title="Linkedin">LinkedIn</a>
                                 </Col>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener">Medium</a>
+                                    <a className="footer-link" href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener" title="Medium">Medium</a>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://github.com/morathami" target="_blank" rel="noreferrer noopener">GitHub</a>
+                                    <a className="footer-link" href="https://github.com/morathami" target="_blank" rel="noreferrer noopener" title="GitHub">GitHub</a>
                                 </Col>
                                 <Col style={{textAlign: "right"}}>
-                                    <a className="footer-link" href="https://gitlab.com/thami.endamora" target="_blank" rel="noreferrer noopener">GitLab</a>
+                                    <a className="footer-link" href="https://gitlab.com/thami.endamora" target="_blank" rel="noreferrer noopener" title="GitLab">GitLab</a>
                                 </Col>
                             </Row>
                         </Container>

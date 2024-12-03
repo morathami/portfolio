@@ -2,38 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-@media only screen and (max-width: 1023px) {
-    /* For mobile: */
-    #fullproject {
-        display: none;
-    }
+/*@media only screen and (max-width: 1023px) {*/
+/*    !* For mobile: *!*/
+/*    #fullproject {*/
+/*        display: none;*/
+/*    }*/
 
-    .full-welcome {
-        display: none;
-    }
+/*    .full-welcome {*/
+/*        display: none;*/
+/*    }*/
 
-    #main-layout {
-        display: none;
-    }
+/*    #main-layout {*/
+/*        display: none;*/
+/*    }*/
 
-    #mobile-layout {
-        display: block;
-    }
+/*    #mobile-layout {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
+
+.full-welcome {
+    height: 480px;
 }
 
-@media only screen and (min-width: 1024px) {
-    .full-welcome {
-        height: 480px;
-    }
-
-    .full-welcome h1 {
-        padding-top: 220px;
-    }
-
-    #mobile-layout {
-        display: none;
-    }
+.full-welcome h1 {
+    padding-top: 220px;
 }
+
+/*@media only screen and (min-width: 1024px) {*/
+/*    .full-welcome {*/
+/*        height: 480px;*/
+/*    }*/
+
+/*    .full-welcome h1 {*/
+/*        padding-top: 220px;*/
+/*    }*/
+
+/*    #mobile-layout {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 
 
 html {
@@ -121,27 +129,23 @@ a:hover {
 }
 
 .size-15-text {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .size-20-text {
-    font-size: 17px;
-}
-
-.size-25-text {
     font-size: 20px;
 }
 
 .size-30-text {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .size-50-text {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .size-60-text {
-    font-size: 58px;
+    font-size: 60px;
 }
 
 .size-36-text {
@@ -151,6 +155,11 @@ a:hover {
 .size-17-text {
     font-size: 17px;
 }
+
+.size-40-text {
+    font-size: 40px;
+}
+
 
 .marginright-5 {
     margin-right: 50px;
@@ -351,7 +360,27 @@ a:hover {
     margin-top: 200px !important;
 }
 
-.skills-button {
-    background: #F8F8F8;
-    color: #212529;
+.skills-button, .skills-button:hover {
+    background: #E5E7EB !important;
+    color: #212529 !important;
+    cursor: default !important;
+}
+
+.works-tag, .works-tag:hover {
+    background: #F0F2F5 !important;
+    color: #212529 !important;
+    border-color: #E5E7EB !important;
+    cursor: default !important;
+}
+
+.display-false {
+    display: none;
+}
+
+.padding-left-40 {
+    padding-left: 40px !important;
+}
+
+.margin-left-20 {
+    margin-left: 20px !important;
 }
