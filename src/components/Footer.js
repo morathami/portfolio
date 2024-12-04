@@ -38,8 +38,8 @@ const Footer = () => {
                         <p className="semibold-text orange-color size-30-text mb-0">Thami Daulay</p>
                         {/*<p className="mb-0"><a className="footer-link" href="mailto:thamidaulay@gmail.com"*/}
                         {/*                       target="_blank" rel="noreferrer noopener" title="thamidaulay@gmail.com">thamidaulay@gmail.com</a></p>*/}
-                        <p className="mb-0">portfolio coded with love by thami daulay <HeartFilled/> 2022-2024</p>
-                        <p>icons created by <a className="footer-link" href="https://www.flaticon.com/authors/freepik"
+                        <p className="mb-0">Portfolio coded with love by thami daulay <HeartFilled/> 2022-2024</p>
+                        <p>Some icons created by <a className="footer-link" href="https://www.flaticon.com/authors/freepik"
                                                title="Freepik" target="_blank" rel="noreferrer noopener">Freepik</a> -
                             Flaticon</p>
                     </Col>

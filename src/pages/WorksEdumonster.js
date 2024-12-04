@@ -14,7 +14,7 @@ const WorksEdumonster = () => {
         <Container style={{marginTop: "120px", marginBottom: "120px"}}>
             <Row id="works-outline">
                 <Col className="bg-lightgrey py-4 px-5">
-                    <h1 className="semibold-text darkgrey-text-color">outline</h1>
+                    <h1 className="semibold-text darkgrey-text-color">Outline</h1>
                     <Anchor affix={false}>
                         <Link className="size-17-text" href="#overview" title="Overview"/>
                         <Link className="size-17-text" href="#design-process" title="Design Process"/>
@@ -34,7 +34,7 @@ const WorksEdumonster = () => {
 
             <Row id="overview" style={{marginTop: "30px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">overview</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Overview</h1>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">ROLE</h5>
                     <p className="size-17-text">Game Designer</p>
 
@@ -62,9 +62,9 @@ const WorksEdumonster = () => {
             <hr/>
             <Row id="design-process" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">design process</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Design Process</h1>
                     <div className="mt-4 text-center justify-content-center">
-                        <Image width={956} preview={false}
+                    <Image width={956} preview={false}
                                src="https://live.staticflickr.com/65535/52570820035_10c26198b4_o.png"/>
                     </div>
                 </Col>
@@ -73,7 +73,7 @@ const WorksEdumonster = () => {
             <hr/>
             <Row id="define" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">define</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Define</h1>
                     <p className="size-17-text">I came up with an idea to create a simulation slash strategy
                         school-themed game, which was highly inspired by these three media.</p>
                     <Row className="mt-4 justify-content-center">
@@ -190,7 +190,7 @@ const WorksEdumonster = () => {
             <hr/>
             <Row id="ideate" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">ideate</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Ideate</h1>
                     <p className="size-17-text">In the ideation stage, I brainstormed and generated various design
                         solutions by mind mapping, sketching, and exploring ideas.</p>
 
@@ -628,7 +628,7 @@ const WorksEdumonster = () => {
             <hr/>
             <Row id="reflection" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">reflection</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Reflection</h1>
 
                     <p className="size-17-text semibold-text mt-3">Takeaways</p>
                     <Container style={{maxWidth: "1050px"}}>

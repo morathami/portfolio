@@ -9,7 +9,7 @@ const Lighthearted = () => {
         <Container style={{marginTop: "120px", marginBottom: "120px"}}>
             <Row id="works-outline">
                 <Col className="bg-lightgrey py-4 px-5">
-                    <h1 className="semibold-text darkgrey-text-color">outline</h1>
+                    <h1 className="semibold-text darkgrey-text-color">Outline</h1>
                     <Anchor affix={false}>
                         <Link className="size-17-text" href="#overview" title="Overview"/>
                         <Link className="size-17-text" href="#images" title="Images"/>
@@ -35,7 +35,7 @@ const Lighthearted = () => {
 
             <Row id="overview" style={{marginTop: "30px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">overview</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Overview</h1>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">ROLE</h5>
                     <p className="size-17-text">Game Designer and Programmer</p>
 
@@ -80,7 +80,7 @@ const Lighthearted = () => {
             <hr/>
             <Row id="images" style={{marginTop: "30px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">images</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Images</h1>
                     <div className="text-center p-2">
                         <Image.PreviewGroup>
                             <Image id="img-content" width={1000}

@@ -9,7 +9,7 @@ const WorksTS4Fashion = () => {
         <Container style={{marginTop: "120px", marginBottom: "120px"}}>
             <Row id="works-outline">
                 <Col className="bg-lightgrey py-4 px-5">
-                    <h1 className="semibold-text darkgrey-text-color">outline</h1>
+                    <h1 className="semibold-text darkgrey-text-color">Outline</h1>
                     <Anchor affix={false}>
                         <Link className="size-17-text" href="#overview" title="Overview"/>
                         <Link className="size-17-text" href="#design-process" title="Design Process"/>
@@ -28,7 +28,7 @@ const WorksTS4Fashion = () => {
 
             <Row id="overview" style={{marginTop: "30px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">overview</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Overview</h1>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">ROLE</h5>
                     <p className="size-17-text">Designer, 3D Artist</p>
 
@@ -46,9 +46,9 @@ const WorksTS4Fashion = () => {
             <hr/>
             <Row id="design-process" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">design process</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Design Process</h1>
                     <div className="mt-4 text-center justify-content-center">
-                        <Image width={1223} preview={false}
+                    <Image width={1223} preview={false}
                                src="https://live.staticflickr.com/65535/52561657100_896ca040b7_o.png"/>
                     </div>
                 </Col>
@@ -188,7 +188,7 @@ const WorksTS4Fashion = () => {
             <hr/>
             <Row id="result-showcase" style={{marginTop: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">final result showcase</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">Final Result Showcase</h1>
                     <p className="size-17-text">Here is a showcase of some of my most satisfactory designs. Some are
                         from my local archives because they can no longer be found online.</p>
                 </Col>
