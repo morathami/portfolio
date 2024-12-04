@@ -18,9 +18,10 @@ function Works({leftImage, workConfig}) {
                     <h3 className="semibold-text size-17-text">{workConfig.year}</h3>
                     <h1 className="bold-text size-50-text">{workConfig.title}</h1>
                     <Container className="mt-3">
-                    <Row>
-                            <Col style={{paddingLeft:0}}><Button shape="round" color="primary" variant="outlined"
-                                                                  className="works-tag">Game Design & Programming</Button></Col>
+                        <Row>
+                            <Col style={{paddingLeft: 0}}><Button shape="round" color="primary" variant="outlined"
+                                                                  className="works-tag">Game Design &
+                                Programming</Button></Col>
                             <Col><Button color="primary" shape="round" variant="outlined"
                                          className="works-tag">{workConfig.engine}</Button></Col>
                             {workConfig.research ? <Col><Button color="primary" shape="round" variant="outlined"
@@ -32,8 +33,10 @@ function Works({leftImage, workConfig}) {
                     <Container className="px-0">
                         <Row>
                             <Col className="m-auto">
-                                <Link to={workConfig.workLink} target="_blank" rel="noreferrer noopener"><Button
-                                color="primary" icon={<ExportOutlined />} variant="outlined" className="pink-main-button mt-4">Read the full process documentation</Button></Link>
+                                <Link to={workConfig.workLink}><Button color="primary" icon={<ExportOutlined/>}
+                                                                       variant="outlined"
+                                                                       className="pink-main-button mt-4">Read the full
+                                    process documentation</Button></Link>
                             </Col>
                         </Row>
                     </Container>

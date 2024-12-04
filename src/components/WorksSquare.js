@@ -28,7 +28,7 @@ function WorksSquare({workConfig}) {
                     <Container className="px-0">
                         <Row>
                             <Col className="m-auto">
-                                <Link to={workConfig.workLink} target="_blank" rel="noreferrer noopener"><Button
+                                <Link to={workConfig.workLink}><Button
                                     color="primary" icon={<ExportOutlined/>} variant="outlined"
                                     className="pink-main-button mt-4">Read the full process
                                     documentation</Button></Link>
