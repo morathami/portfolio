@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import {Container, Row, Col} from 'react-bootstrap';
 import {Button, Image, Tooltip} from 'antd';
 import {DownloadOutlined} from "@ant-design/icons";
-import ImageThami from "../assets/image-thami.jpg";
+import ImageThami from "../assets/Images/image-thami.jpg";
 
 const About = () => {
     return (

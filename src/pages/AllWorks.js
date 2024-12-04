@@ -3,9 +3,9 @@ import '../assets/works.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import Works from "../components/Works";
 import WorksSquare from "../components/WorksSquare";
-import EdumonsterImage from "../assets/image-edumonster.png";
-import PakoboxImage from "../assets/image-pakobox.png";
-import TS4Image from "../assets/image-ts4fashion.png";
+import EdumonsterImage from "../assets/Images/image-edumonster.png";
+import PakoboxImage from "../assets/Images/image-pakobox.png";
+import TS4Image from "../assets/Images/image-ts4fashion.png";
 
 function AllWorks() {
     return (

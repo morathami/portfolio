@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import {Button, Image} from 'antd';
 import {DownloadOutlined, SmileFilled} from '@ant-design/icons';
 import Works from "../components/Works";
-import ImageThami from '../assets/image-thami.jpg';
+import ImageThami from '../assets/Images/image-thami.jpg';
 
 function Home() {
     return (

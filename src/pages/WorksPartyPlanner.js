@@ -1,11 +1,41 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import {Tag, Anchor, Image} from 'antd';
-import ImageThami from "../assets/image-thami.jpg";
+import ImageNarrative from "../assets/Images/partyplanner-narrative.png";
+import ImageGameFlow from "../assets/Images/partyplanner-flow.png";
+import ImageAllNPC from "../assets/Images/partyplanner-npc.png";
+import ImageAvatar1 from "../assets/Images/partyplanner-avatar-1.png";
+import ImageAvatar2 from "../assets/Images/partyplanner-avatar-2.png";
+import ImageAvatar3 from "../assets/Images/partyplanner-avatar-3.png";
+import ImageDesignReward1 from "../assets/Images/partyplanner-designreward-1.png";
+import ImageDesignReward2 from "../assets/Images/partyplanner-designreward-2.png";
+import ImageDesignReward3 from "../assets/Images/partyplanner-designreward-3.png";
+import ImageEnding1 from "../assets/Images/partyplanner-ending-1.png";
+import ImageEnding2 from "../assets/Images/partyplanner-ending-2.png";
+import ImageEnding3 from "../assets/Images/partyplanner-ending-3.png";
+import ImageNPC1 from "../assets/Images/partyplanner-npc-1.png";
+import ImageNPC2 from "../assets/Images/partyplanner-npc-2.png";
+import ImageNPC3 from "../assets/Images/partyplanner-npc-3.png";
+import ImageNPC4 from "../assets/Images/partyplanner-npc-4.png";
+import ImageTask11 from "../assets/Images/partyplanner-task1-1.png";
+import ImageTask12 from "../assets/Images/partyplanner-task1-2.png";
+import ImageTask13 from "../assets/Images/partyplanner-task1-3.png";
+import ImageTask21 from "../assets/Images/partyplanner-task2-1.png";
+import ImageTask22 from "../assets/Images/partyplanner-task2-2.png";
+import ImageTask23 from "../assets/Images/partyplanner-task2-3.png";
+import ImageDev1 from "../assets/Images/partyplanner-dev-1.png";
+import ImageDev2 from "../assets/Images/partyplanner-dev-2.png";
+import ImageDev3 from "../assets/Images/partyplanner-dev-3.png";
+import ImageDev4 from "../assets/Images/partyplanner-dev-4.png";
+import ImageDev5 from "../assets/Images/partyplanner-dev-5.png";
+import ImageDev6 from "../assets/Images/partyplanner-dev-6.png";
+import ImageDev7 from "../assets/Images/partyplanner-dev-7.png";
+import ImageDev8 from "../assets/Images/partyplanner-dev-8.png";
+import ImageDev9 from "../assets/Images/partyplanner-dev-9.png";
+
 
 const TemplateWorks = () => {
     // TODO PartyPlanner (Header Image)
-    // TODO PartyPlanner (All content images)
     const {Link} = Anchor;
 
     function backToTopFunction() {
@@ -177,7 +207,8 @@ const TemplateWorks = () => {
                 <Col>
                     <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">Game
                         Narrative</h1>
-                    <p className="size-17-text mt-4">As a collaborative storytelling game, Party Planner utilises an open
+                    <p className="size-17-text mt-4">As a collaborative storytelling game, Party Planner utilises an
+                        open
                         narrative structure that allows players to choose their paths and assemble the story however
                         they want. However, a game designer should <span className="semibold-text">balance player agency with maintaining a
                             cohesive experience</span>. Therefore, the narrative establishes the game's main objective
@@ -194,21 +225,12 @@ const TemplateWorks = () => {
                             players can be either good or mischievous as long as all players work together.</span></p>
                 </Col>
             </Row>
-            <Row className="mt-4 justify-content-center">
-                <Col><Image style={{borderRadius: "50px"}} width={480} height={500} preview={false}
-                            src={ImageThami}/></Col>
-            </Row>
-            <Row className="mt-4 justify-content-center">
-                <Col className="mx-5">
-                    <Container className="bg-orange text-white py-3 px-5 border-radius-30 text-center">
-                        <Row><Col><p className="semibold-text size-17-text mb-0">Game Flow</p>
-                        </Col></Row>
-                    </Container>
+            <Row className="mt-4 justify-content-center" style={{marginBottom: "50px"}}>
+                <Col className="m-auto"><Image height={400} src={ImageNarrative}/></Col>
+                <Col className="m-auto text-center">
+                    <p className="semibold-text size-17-text mb-3">GAME FLOW</p>
+                    <Image width={600} src={ImageGameFlow}/>
                 </Col>
-            </Row>
-            <Row className="mt-4 justify-content-center" style={{marginBottom:"50px"}}>
-                <Col><Image style={{borderRadius: "50px"}} width={480} height={500} preview={false}
-                            src={ImageThami}/></Col>
             </Row>
 
             <hr/>
@@ -239,20 +261,14 @@ const TemplateWorks = () => {
                     </Container>
                 </Col>
             </Row>
+            <Row className="mt-5"><Col className="m-auto text-center"><Image height="350px"
+                                                                             src={ImageAllNPC}/></Col></Row>
             <Row className="mt-5 justify-content-center text-center">
                 <Image.PreviewGroup>
-                    <Col><Image width={450}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={450}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation2.gif"/></Col>
-                </Image.PreviewGroup>
-            </Row>
-            <Row className="mt-5 justify-content-center text-center">
-                <Image.PreviewGroup>
-                    <Col><Image width={450}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={450}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation2.gif"/></Col>
+                    <Col className="mb-5"><Image width={500} src={ImageNPC1}/></Col>
+                    <Col className="mb-5"><Image width={500} src={ImageNPC2}/></Col>
+                    <Col><Image width={500} src={ImageNPC3}/></Col>
+                    <Col><Image width={500} src={ImageNPC4}/></Col>
                 </Image.PreviewGroup>
             </Row>
 
@@ -275,47 +291,45 @@ const TemplateWorks = () => {
                                 <p><span className="semibold-text">The first type requires both players to engage in
                                 the same activity and coordinate their actions to
                                 win.</span> In the customary task, players interpret
-                                prompts to find 4-5 items and must discuss about
-                                which items appear on each screen. The sabotage
-                                path involves deductive reasoning based on visual
-                                cues from NPCs, who react differently to various
-                                answers. Since NPC reactions depend on answers from both players, they must collaborate
-                                to identify the correct option.</p>
+                                    prompts to find 4-5 items and must discuss about
+                                    which items appear on each screen. The sabotage
+                                    path involves deductive reasoning based on visual
+                                    cues from NPCs, who react differently to various
+                                    answers. Since NPC reactions depend on answers from both players, they must
+                                    collaborate
+                                    to identify the correct option.</p>
                                 <p><span className="semibold-text">The second type assigns different minigames to
                                 each player, requiring them to reach the goal
                                     based on their individual expertise.</span> In the
-                                customary path, one player identifies details from
-                                images to relay to the other, emphasising
-                                communication. In the sabotage task, one player
-                                engages in a card-matching game while the other
-                                selects images based on descriptions. Correct
-                                answers unlock new cards, highlighting positive interdependence, where players must rely
-                                on each other to succeed.</p>
+                                    customary path, one player identifies details from
+                                    images to relay to the other, emphasising
+                                    communication. In the sabotage task, one player
+                                    engages in a card-matching game while the other
+                                    selects images based on descriptions. Correct
+                                    answers unlock new cards, highlighting positive interdependence, where players must
+                                    rely
+                                    on each other to succeed.</p>
                             </Col>
                         </Row>
                     </Container>
                 </Col>
             </Row>
-            <Row><Col><h5 className="semibold-text size-17-text mb-0 mt-5 text-center">COLLABORATIVE TASK TYPE 1</h5></Col></Row>
+            <Row><Col><h5 className="semibold-text size-17-text mb-0 mt-5 text-center">COLLABORATIVE TASK TYPE 1</h5>
+            </Col></Row>
             <Row className="mt-5 justify-content-center text-center">
                 <Image.PreviewGroup>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
+                    <Col><Image width={400} src={ImageTask11}/></Col>
+                    <Col><Image width={400} src={ImageTask12}/></Col>
+                    <Col><Image width={400} src={ImageTask13}/></Col>
                 </Image.PreviewGroup>
             </Row>
-            <Row><Col><h5 className="semibold-text size-17-text mb-0 mt-5 text-center">COLLABORATIVE TASK TYPE 2</h5></Col></Row>
+            <Row><Col><h5 className="semibold-text size-17-text mb-0 mt-5 text-center">COLLABORATIVE TASK TYPE 2</h5>
+            </Col></Row>
             <Row className="mt-5 justify-content-center text-center">
                 <Image.PreviewGroup>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
+                    <Col><Image width={400} src={ImageTask21}/></Col>
+                    <Col><Image width={400} src={ImageTask22}/></Col>
+                    <Col><Image width={400} src={ImageTask23}/></Col>
                 </Image.PreviewGroup>
             </Row>
 
@@ -329,19 +343,22 @@ const TemplateWorks = () => {
                                     style={{paddingTop: "0.2rem"}}>3
                                 </div>
                             </Col>
-                            <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Design Reward System</Col>
+                            <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Design
+                                Reward System</Col>
                         </Row>
                         <Row className="mt-3">
                             <Col className="size-15-text mb-0">
                                 <p>After completing a task, players can <span className="semibold-text">customise party props </span>
-                                    like banners and balloons. These items and colours appear in the game's ending story,
+                                    like banners and balloons. These items and colours appear in the game's ending
+                                    story,
                                     reinforcing the idea of choices without right or wrong answers and showing their
                                     impact on the narrative. Moreover, players can add and customise items whether they
                                     succeed, fail, or sabotage tasks. For example, failing to convince a musician allows
                                     players to add stereos, while success unlocks an additional option to design the
                                     musician's guitar.</p>
                                 <p>Rewards are anonymised to avoid pushing players toward a particular path for more
-                                    rewards, ensuring <span className="semibold-text">all choices are valuable.</span> This
+                                    rewards, ensuring <span
+                                        className="semibold-text">all choices are valuable.</span> This
                                     approach emphasises that all paths are valuable and rewarded, whether players choose
                                     to plan the party correctly or sabotage it. The key is to create a system that
                                     encourages teamwork and that players feel their efforts are appreciated regardless
@@ -354,12 +371,9 @@ const TemplateWorks = () => {
             </Row>
             <Row className="mt-5 justify-content-center text-center">
                 <Image.PreviewGroup>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
+                    <Col><Image width={400} src={ImageDesignReward2}/></Col>
+                    <Col><Image width={400} src={ImageDesignReward1}/></Col>
+                    <Col><Image width={400} src={ImageDesignReward3}/></Col>
                 </Image.PreviewGroup>
             </Row>
 
@@ -373,46 +387,64 @@ const TemplateWorks = () => {
                                     style={{paddingTop: "0.2rem"}}>3
                                 </div>
                             </Col>
-                            <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Character Editor</Col>
+                            <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Character
+                                Editor</Col>
                         </Row>
                         <Row className="mt-3">
                             <Col className="size-15-text mb-0">
-                                <p>Players can customise their character’s name and appearance before and during the game. This feature enables players' identification with their characters.</p>
+                                <p>Players can customise their character’s name and appearance before and during the
+                                    game. This feature enables players' identification with their characters.</p>
                             </Col>
                         </Row>
                     </Container>
                 </Col>
             </Row>
-            <Row className="mt-5 justify-content-center text-center" style={{marginBottom:"50px"}}>
+            <Row className="mt-5 justify-content-center text-center" style={{marginBottom: "50px"}}>
                 <Image.PreviewGroup>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
+                    <Col><Image width={400} src={ImageAvatar1}/></Col>
+                    <Col><Image width={400} height="100%" src={ImageAvatar2}/></Col>
+                    <Col><Image width={400} src={ImageAvatar3}/></Col>
                 </Image.PreviewGroup>
             </Row>
-            
+
             <hr/>
             <Row id="ending" style={{marginTop: "50px"}}>
                 <Col>
                     <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">Game Ending</h1>
                     <p className="size-17-text mt-4">
                         <span className="semibold-text">The ending narrates the story players have built </span>
-                        through their actions or inactions throughout the game. Instead of having a single “win” or “lose” outcome, 
+                        through their actions or inactions throughout the game. Instead of having a single “win” or
+                        “lose” outcome,
                         <span className="semibold-text"> it emphasises that every decision and action the players make impacts the story</span>
-                        , whether they fail or successfully complete the tasks, sabotage parts of the party, and choose whom to invite.</p>
+                        , whether they fail or successfully complete the tasks, sabotage parts of the party, and choose
+                        whom to invite.</p>
                 </Col>
             </Row>
-            <Row className="mt-3 justify-content-center text-center" style={{marginBottom:"50px"}}>
+            <Row className="mt-3 justify-content-center text-center" style={{marginBottom: "50px"}}>
                 <Image.PreviewGroup>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
-                    <Col><Image width={400}
-                                src="https://s4.gifyu.com/images/Copy-of-CyberBuddy_Orientation1.gif"/></Col>
+                    <Col><Image width={400} src={ImageEnding1}/></Col>
+                    <Col><Image width={400} src={ImageEnding2}/></Col>
+                    <Col><Image width={400} src={ImageEnding3}/></Col>
+                </Image.PreviewGroup>
+            </Row>
+
+            <hr/>
+            <Row id="documentation" style={{marginTop: "50px"}}>
+                <Col>
+                    <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">Development Documentation</h1>
+                </Col>
+            </Row>
+            <Row className="mt-3 justify-content-center text-center" style={{marginBottom: "50px"}}>
+                <Image.PreviewGroup>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev1} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev2} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev3} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev4} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev5} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev6} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev7} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev8} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev9} style={{border:"1px solid black"}}/></Col>
                 </Image.PreviewGroup>
             </Row>
 
