@@ -16,42 +16,41 @@ const TemplateWorks = () => {
                 <Col className="bg-lightgrey py-4 px-5">
                     <h1 className="semibold-text darkgrey-text-color">outline</h1>
                     <Anchor affix={false}>
-                        <Link className="size-20-text" href="#overview" title="Overview"/>
-                        <Link className="size-20-text" href="#design-process" title="Design Process"/>
-                        <Link className="size-20-text" href="#emphatise" title="Emphatise"/>
-                        <Link className="size-20-text" href="#define" title="Define"/>
-                        <Link className="size-20-text" href="#ideate" title="Ideate"/>
-                        <Link className="size-20-text" href="#prototype" title="Prototype"/>
-                        <Link className="size-20-text" href="#test" title="Test"/>
-                        <Link className="size-20-text" href="#reflection" title="Reflection"/>
+                        <Link className="size-17-text" href="#overview" title="Overview"/>
+                        <Link className="size-17-text" href="#design-process" title="Design Process"/>
+                        <Link className="size-17-text" href="#emphatise" title="Emphatise"/>
+                        <Link className="size-17-text" href="#define" title="Define"/>
+                        <Link className="size-17-text" href="#ideate" title="Ideate"/>
+                        <Link className="size-17-text" href="#prototype" title="Prototype"/>
+                        <Link className="size-17-text" href="#test" title="Test"/>
+                        <Link className="size-17-text" href="#reflection" title="Reflection"/>
                     </Anchor>
                 </Col>
             </Row>
 
-            <Row style={{marginTop: "30px", marginBottom: "30px"}} className="text-center">
-                {/* TODO video */}
-                <a className="footer-link" href="https://www.youtube.com/watch?v=nLoALCyvle8" target="_blank"
-                   rel="noreferrer noopener">
-                    <Image preview={false} className="border-radius-20" width={1000}
-                           src="https://live.staticflickr.com/65535/54175352936_ac05563390_o.png"/>
-                </a>
+            <Row style={{marginTop: "30px", marginBottom: "30px", width: "888.89px"}}
+                 className="text-center justify-content-center mx-auto">
+                <iframe width="888.89" height="500" src="https://www.youtube.com/embed/nLoALCyvle8?si=pZBi8gwYW_2X72uu"
+                        title="Cyber Buddy" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </Row>
 
             <Row id="tags" style={{marginTop: "50px"}}>
                 <Col>
-                <Tag color="#313131" className="bold-text" style={{letterSpacing: "1px"}}>RESEARCH</Tag>
+                    <Tag color="#313131" className="bold-text" style={{letterSpacing: "1px"}}>RESEARCH</Tag>
                     <Tag color="#313131" className="bold-text" style={{letterSpacing: "1px"}}>GAME DESIGN</Tag>
                     <Tag color="#313131" className="bold-text" style={{letterSpacing: "1px"}}>CODING</Tag>
                     <Tag color="#313131" className="bold-text" style={{letterSpacing: "1px"}}>WRITING</Tag>
                     <Tag color="#313131" className="bold-text" style={{letterSpacing: "1px"}}>SOLO PROJECT</Tag>
                 </Col>
             </Row>
-            
+
             <Row id="overview" style={{marginTop: "30px", marginBottom: "30px"}}>
                 <Col>
                     <h1 className="semibold-text orange-color">overview</h1>
-                    <h5 className="semibold-text size-20-text mb-0 mt-4">PROBLEM</h5>
-                    <p className="size-20-text">Although technology can form many opportunities, it exposes children to
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">PROBLEM</h5>
+                    <p className="size-17-text">Although technology can form many opportunities, it exposes children to
                         many threats, including cyberbullying. For this reason, there is a need to give cyberbullying
                         education from an early age. Using educational games can be a viable approach to creating
                         effective and fun learning because it stimulates curiosity and involves children in solving
@@ -59,36 +58,30 @@ const TemplateWorks = () => {
                     <p className="size-12-text darkgrey-text-color">[1] T. Hainey, T. M. Connolly, E. A. Boyle, A.
                         Wilson and A. Razak, "A systematic literature review of games-based learning empirical evidence
                         in primary education," Computers & Education, vol. 102, pp. 202-223, 2016.</p>
-                    <h5 className="semibold-text size-20-text mb-0 mt-5">OBJECTIVE</h5>
-                    <p className="size-20-text">Develop a compelling interactive educational game to prevent
+                    <h5 className="semibold-text size-17-text mb-0 mt-5">OBJECTIVE</h5>
+                    <p className="size-17-text">Develop a compelling interactive educational game to prevent
                         cyberbullying among primary school students.</p>
-                    <h5 className="semibold-text size-20-text mb-0 mt-4">TIMELINE</h5>
-                    <p className="size-20-text">2022 (+- 5 months)</p>
-                    <h5 className="semibold-text size-20-text mb-0 mt-4">ROLE</h5>
-                    <p className="size-20-text">Researcher, Game Designer, Programmer</p>
-                    <h5 className="semibold-text size-20-text mb-0 mt-4">TOOLS</h5>
-                    <p className="size-20-text">Figma, Photoshop, Godot</p>
-                    <h5 className="semibold-text size-20-text mb-0 mt-4">PUBLICATION</h5>
-                    <p className="size-20-text">2022 International Conference on Advanced Computer Science and
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">TIMELINE</h5>
+                    <p className="size-17-text">2022 (+- 5 months)</p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">ROLE</h5>
+                    <p className="size-17-text">Researcher, Game Designer, Programmer</p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">TOOLS</h5>
+                    <p className="size-17-text">Godot, Figma, Photoshop</p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">PLATFORM</h5>
+                    <p className="size-17-text">Web (HTML5) - Published exclusively during the research period</p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">PUBLICATION</h5>
+                    <p className="size-17-text">2022 International Conference on Advanced Computer Science and
                         Information Systems (ICACSIS). DOI: <a href="https://doi.org/10.1109/ICACSIS56558.2022.9923480"
                                                                target="_blank"
                                                                rel="noreferrer noopener">10.1109/ICACSIS56558.2022.9923480</a>
                     </p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">DEMO VIDEO</h5>
+                    <p className="size-17-text"><a href="https://www.youtube.com/watch?v=nLoALCyvle8"
+                                                   target="_blank"
+                                                   rel="noreferrer noopener">https://www.youtube.com/watch?v=nLoALCyvle8</a>
+                    </p>
                 </Col>
             </Row>
-
-            {/*<Row id="play-button">*/}
-            {/*    <Row className="fullwidth-button-container text-center">*/}
-            {/*        <h5 className="semibold-text size-20-text mb-0 mt-4 orange-color">WATCH PLAY DEMO ON YOUTUBE</h5>*/}
-            {/*        <a href="https://youtu.be/nLoALCyvle8" target="_blank" rel="noreferrer noopener">*/}
-            {/*            <button size="large" shape="round"*/}
-            {/*                    className="ant-btn ant-btn-round ant-btn-default ant-btn-lg mt-1 mb-5 orange-button"*/}
-            {/*                    type="button">*/}
-            {/*                <span className="semibold-text size-20-text">bit.ly/CyberBuddyPlayDemo</span>*/}
-            {/*            </button>*/}
-            {/*        </a>*/}
-            {/*    </Row>*/}
-            {/*</Row>*/}
 
             <hr/>
             <Row id="design-process" style={{marginTop: "50px", marginBottom: "50px"}}>
@@ -105,7 +98,7 @@ const TemplateWorks = () => {
             <Row id="emphatise" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
                     <h1 className="semibold-text orange-color">emphatise</h1>
-                    <p className="size-20-text">In order to understand the users and their educational need, I went
+                    <p className="size-17-text">In order to understand the users and their educational need, I went
                         through two steps of process.</p>
                     <Container style={{maxWidth: "970px", marginTop: "50px"}}>
                         <Row className="justify-content-center text-center">
@@ -119,8 +112,8 @@ const TemplateWorks = () => {
                                 <h5 className="text-center semibold-text size-25-text mb-0 orange-color">01</h5>
                                 <h5 className="text-center semibold-text size-25-text mb-3">User Interview</h5>
                                 <ul>
-                                    <li className="size-20-text">With children aged 8-11</li>
-                                    <li className="size-20-text">To identify user's characteristic and game
+                                    <li className="size-17-text">With children aged 8-11</li>
+                                    <li className="size-17-text">To identify user's characteristic and game
                                         preferences
                                     </li>
                                 </ul>
@@ -129,10 +122,10 @@ const TemplateWorks = () => {
                                 <h5 className="text-center semibold-text size-25-text mb-0 orange-color">02</h5>
                                 <h5 className="text-center semibold-text size-25-text mb-3">Expert Interview</h5>
                                 <ul>
-                                    <li className="size-20-text">With psychologists & the government's educational QA
+                                    <li className="size-17-text">With psychologists & the government's educational QA
                                         analyst
                                     </li>
-                                    <li className="size-20-text">To understand user's cyberbullying educational need
+                                    <li className="size-17-text">To understand user's cyberbullying educational need
                                     </li>
                                 </ul>
                             </Col>
@@ -145,19 +138,19 @@ const TemplateWorks = () => {
             <Row id="define" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
                     <h1 className="semibold-text orange-color">define</h1>
-                    <p className="size-20-text">Based on the findings from the user interview, I found that there are
+                    <p className="size-17-text">Based on the findings from the user interview, I found that there are
                         four children's favoured game characteristics.</p>
                     <Container>
                         <Row className="my-4 justify-content-center">
                             <Col style={{maxWidth: "400px"}} className="mx-5">
                                 <Container className="bg-pastel-orange py-5 px-5 border-radius-30">
-                                    <Row><Col><p className="size-20-text mb-0">Children's favourite game genre: <span
+                                    <Row><Col><p className="size-17-text mb-0">Children's favourite game genre: <span
                                         className="semibold-text">Simulation</span></p></Col></Row>
                                 </Container>
                             </Col>
                             <Col style={{maxWidth: "400px"}} className="mx-5">
                                 <Container className="bg-pastel-orange py-5 px-5 border-radius-30">
-                                    <Row><Col><p className="size-20-text mb-0">Children love games with clear goals
+                                    <Row><Col><p className="size-17-text mb-0">Children love games with clear goals
                                         or <span className="semibold-text">missions</span></p></Col></Row>
                                 </Container>
                             </Col>
@@ -165,14 +158,14 @@ const TemplateWorks = () => {
                         <Row className="my-4 justify-content-center">
                             <Col style={{maxWidth: "400px"}} className="mx-5">
                                 <Container className="bg-pastel-orange py-5 px-5 border-radius-30">
-                                    <Row><Col><p className="size-20-text mb-0">Children would like to <span
+                                    <Row><Col><p className="size-17-text mb-0">Children would like to <span
                                         className="semibold-text">customize</span> their game character's appearance</p>
                                     </Col></Row>
                                 </Container>
                             </Col>
                             <Col style={{maxWidth: "400px"}} className="mx-5">
                                 <Container className="bg-pastel-orange py-5 px-5 border-radius-30">
-                                    <Row><Col><p className="size-20-text mb-0">Children would like to collect <span
+                                    <Row><Col><p className="size-17-text mb-0">Children would like to collect <span
                                         className="semibold-text">in-game currency</span> and buy things/powerups</p>
                                     </Col></Row>
                                 </Container>
@@ -180,7 +173,7 @@ const TemplateWorks = () => {
                         </Row>
                     </Container>
 
-                    <p style={{marginTop: "85px"}} className="size-20-text">Based on the findings from the expert
+                    <p style={{marginTop: "85px"}} className="size-17-text">Based on the findings from the expert
                         interview, I formulated two learning goals that are appropriate for primary school students.</p>
                     <Container>
                         <Row className="my-4 justify-content-center">
@@ -188,7 +181,7 @@ const TemplateWorks = () => {
                                 <Container className="bg-pastel-orange py-5 px-5 border-radius-30">
                                     <Row><Col><p className="size-15-text orange-color semibold-text">Learning Goal
                                         #1</p></Col></Row>
-                                    <Row><Col><p className="size-20-text semibold-text">Children understand how words
+                                    <Row><Col><p className="size-17-text semibold-text">Children understand how words
                                         can affect feelings</p></Col></Row>
                                     <Row><Col><p className="size-15-text mb-0">Children can minimize cyberbullying
                                         behaviour if they know how words impact people's feelings and are being careful
@@ -201,7 +194,7 @@ const TemplateWorks = () => {
                                 <Container className="bg-pastel-orange py-5 px-5 border-radius-30">
                                     <Row><Col><p className="size-15-text orange-color semibold-text">Learning Goal
                                         #2</p></Col></Row>
-                                    <Row><Col><p className="size-20-text semibold-text">Children learn how to protect
+                                    <Row><Col><p className="size-17-text semibold-text">Children learn how to protect
                                         themselves</p></Col></Row>
                                     <Row><Col><p className="size-15-text mb-0">Children can protect themselves from the
                                         negative behaviour of others by knowing when to block and report such
@@ -211,7 +204,7 @@ const TemplateWorks = () => {
                         </Row>
                     </Container>
 
-                    <p style={{marginTop: "85px"}} className="size-20-text">Then, I constructed a persona representing
+                    <p style={{marginTop: "85px"}} className="size-17-text">Then, I constructed a persona representing
                         the user characteristics. The persona was made so that I will understand and remember that I am
                         not designing a product for myself, but I always need to refer to that persona.</p>
                     <Container style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", maxWidth: "1150px"}}
@@ -245,14 +238,14 @@ const TemplateWorks = () => {
                                             </Container>
                                         </Col>
                                         <Col xs={5} style={{marginLeft: "65px"}}>
-                                            <h5 className="semibold-text size-20-text orange-color">Pain Point</h5>
+                                            <h5 className="semibold-text size-17-text orange-color">Pain Point</h5>
                                             <p className="size-15-text my-0">Bored with the teacher-led conventional
                                                 learning method</p>
                                         </Col>
                                     </Row>
                                     <Row style={{marginTop: "35px"}}>
                                         <Col xs={5}>
-                                            <h5 className="semibold-text size-20-text orange-color">Internet Uses</h5>
+                                            <h5 className="semibold-text size-17-text orange-color">Internet Uses</h5>
                                             <Container>
                                                 <Row>
                                                     <Col className="size-15-text px-0" style={{marginRight: "10px"}}>Academic
@@ -300,7 +293,7 @@ const TemplateWorks = () => {
                                             </Container>
                                         </Col>
                                         <Col xs={5} style={{marginLeft: "65px"}}>
-                                            <h5 className="semibold-text size-20-text orange-color">Most Used Social
+                                            <h5 className="semibold-text size-17-text orange-color">Most Used Social
                                                 Media</h5>
                                             <Container style={{maxWidth: "200px"}} className="mx-0">
                                                 <Row className="justify-content-center text-center">
@@ -374,7 +367,7 @@ const TemplateWorks = () => {
                                             </Container>
                                         </Col>
                                         <Col xs={5} style={{marginLeft: "65px"}}>
-                                            <h5 className="semibold-text size-20-text orange-color">Most Played
+                                            <h5 className="semibold-text size-17-text orange-color">Most Played
                                                 Games</h5>
                                             <Container style={{maxWidth: "200px"}} className="mx-0">
                                                 <Row className="justify-content-center text-center">
@@ -399,19 +392,19 @@ const TemplateWorks = () => {
             <Row id="ideate" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
                     <h1 className="semibold-text orange-color">ideate</h1>
-                    <p className="size-20-text">With the user's requirements defined, I could brainstorm and come up
+                    <p className="size-17-text">With the user's requirements defined, I could brainstorm and come up
                         with potential solutions.</p>
                     <Container style={{maxWidth: "650px"}} className="my-5">
                         <Row>
                             <Col>
                                 <Container className="bg-orange py-3 px-3 border-radius-40 text-white">
-                                    <Row><Col className="size-20-text mb-0 semibold-text text-center">NEEDS</Col></Row>
+                                    <Row><Col className="size-17-text mb-0 semibold-text text-center">NEEDS</Col></Row>
                                 </Container>
                             </Col>
                             <Col>
                                 <Container className="bg-orange py-3 px-3 border-radius-40 text-white">
                                     <Row><Col
-                                        className="size-20-text mb-0 semibold-text text-center">SOLUTION</Col></Row>
+                                        className="size-17-text mb-0 semibold-text text-center">SOLUTION</Col></Row>
                                 </Container>
                             </Col>
                         </Row>
@@ -488,10 +481,10 @@ const TemplateWorks = () => {
                             </Col>
                         </Row>
                     </Container>
-                    <p className="size-20-text mt-4"><span
+                    <p className="size-17-text mt-4"><span
                         className="semibold-text">Cyberbullying simulation scenarios</span> players encounter on social
                         media simulation apps are the essence of cyberbullying educational content in the game.</p>
-                    <p className="size-20-text mt-4">There are 25 cyberbullying scenarios designed for the whole game.
+                    <p className="size-17-text mt-4">There are 25 cyberbullying scenarios designed for the whole game.
                         Some scenarios ask how the player feels when reading messages, and some make the player choose
                         between messages to send. In others, players must select an action they take when receiving
                         inappropriate messages.</p>
@@ -503,7 +496,7 @@ const TemplateWorks = () => {
                 <Col>
                     <h1 className="semibold-text orange-color">prototype</h1>
 
-                    <h5 className="semibold-text size-20-text mb-0 mt-4">ITERATION</h5>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">ITERATION</h5>
                     <Container>
                         <Row className="text-center justify-content-center">
                             <Image.PreviewGroup>
@@ -538,7 +531,7 @@ const TemplateWorks = () => {
                         </Row>
                     </Container>
 
-                    <h5 className="semibold-text size-20-text mb-0 mt-5">FINAL GAME PROTOTYPE</h5>
+                    <h5 className="semibold-text size-17-text mb-0 mt-5">FINAL GAME PROTOTYPE</h5>
                     <Container className="px-0">
                         <Row>
                             <Col>
@@ -546,11 +539,11 @@ const TemplateWorks = () => {
                                     <Row>
                                         <Col className="flex-width-xs">
                                             <div
-                                                className="circle-30-size bg-orange text-center semibold-text text-white size-20-text"
+                                                className="circle-30-size bg-orange text-center semibold-text text-white size-17-text"
                                                 style={{paddingTop: "0.2rem"}}>1
                                             </div>
                                         </Col>
-                                        <Col className="semibold-text size-20-text px-0" style={{paddingTop: "0.2rem"}}>Orientation
+                                        <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Orientation
                                             Stage</Col>
                                     </Row>
                                     <Row className="mt-3">
@@ -577,11 +570,11 @@ const TemplateWorks = () => {
                                     <Row>
                                         <Col className="flex-width-xs">
                                             <div
-                                                className="circle-30-size bg-orange text-center semibold-text text-white size-20-text"
+                                                className="circle-30-size bg-orange text-center semibold-text text-white size-17-text"
                                                 style={{paddingTop: "0.2rem"}}>2
                                             </div>
                                         </Col>
-                                        <Col className="semibold-text size-20-text px-0" style={{paddingTop: "0.2rem"}}>Main
+                                        <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Main
                                             Menu Screen</Col>
                                     </Row>
                                     <Row className="mt-3">
@@ -598,7 +591,7 @@ const TemplateWorks = () => {
                                 <Col style={{textAlign: "right"}}><Image width={600}
                                                                          src="https://live.staticflickr.com/65535/52554204985_9e668d55cf_o.png"/></Col>
                                 <Col>
-                                    <p className="semibold-text size-20-text mt-4">Avatar Happiness Meter <Tag
+                                    <p className="semibold-text size-17-text mt-4">Avatar Happiness Meter <Tag
                                         color="#F6AA81" style={{marginLeft: "0.5rem"}}>SOLUTION</Tag></p>
                                     <p className="size-15-text">Represents the current avatar's point gain. If the
                                         player gains a point, the arrow will move to the right, and vice versa. Children
@@ -623,11 +616,11 @@ const TemplateWorks = () => {
                                     <Row>
                                         <Col className="flex-width-xs">
                                             <div
-                                                className="circle-30-size bg-orange text-center semibold-text text-white size-20-text"
+                                                className="circle-30-size bg-orange text-center semibold-text text-white size-17-text"
                                                 style={{paddingTop: "0.2rem"}}>3
                                             </div>
                                         </Col>
-                                        <Col className="semibold-text size-20-text px-0" style={{paddingTop: "0.2rem"}}>Social
+                                        <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Social
                                             Media Simulation Apps <Tag color="#F6AA81"
                                                                        style={{marginLeft: "0.5rem"}}>SOLUTION</Tag></Col>
                                     </Row>
@@ -686,11 +679,11 @@ const TemplateWorks = () => {
                                     <Row>
                                         <Col className="flex-width-xs">
                                             <div
-                                                className="circle-30-size bg-orange text-center semibold-text text-white size-20-text"
+                                                className="circle-30-size bg-orange text-center semibold-text text-white size-17-text"
                                                 style={{paddingTop: "0.2rem"}}>4
                                             </div>
                                         </Col>
-                                        <Col className="semibold-text size-20-text px-0" style={{paddingTop: "0.2rem"}}>Direct
+                                        <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Direct
                                             Feedback System</Col>
                                     </Row>
                                     <Row className="mt-3">
@@ -770,11 +763,11 @@ const TemplateWorks = () => {
                                     <Row>
                                         <Col className="flex-width-xs">
                                             <div
-                                                className="circle-30-size bg-orange text-center semibold-text text-white size-20-text"
+                                                className="circle-30-size bg-orange text-center semibold-text text-white size-17-text"
                                                 style={{paddingTop: "0.2rem"}}>5
                                             </div>
                                         </Col>
-                                        <Col className="semibold-text size-20-text px-0" style={{paddingTop: "0.2rem"}}>Avatar
+                                        <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Avatar
                                             Creator App <Tag color="#F6AA81"
                                                              style={{marginLeft: "0.5rem"}}>SOLUTION</Tag></Col>
                                     </Row>
@@ -819,11 +812,11 @@ const TemplateWorks = () => {
                                     <Row>
                                         <Col className="flex-width-xs">
                                             <div
-                                                className="circle-30-size bg-orange text-center semibold-text text-white size-20-text"
+                                                className="circle-30-size bg-orange text-center semibold-text text-white size-17-text"
                                                 style={{paddingTop: "0.2rem"}}>6
                                             </div>
                                         </Col>
-                                        <Col className="semibold-text size-20-text px-0" style={{paddingTop: "0.2rem"}}>Game
+                                        <Col className="semibold-text size-17-text px-0" style={{paddingTop: "0.2rem"}}>Game
                                             Ending Scene</Col>
                                     </Row>
                                     <Row className="mt-3">
@@ -864,11 +857,11 @@ const TemplateWorks = () => {
                             </Container>
                         </Row>
 
-                        <h5 className="semibold-text size-20-text mb-0 mt-5">GAME UI KIT</h5>
+                        <h5 className="semibold-text size-17-text mb-0 mt-5">GAME UI KIT</h5>
                         <Container style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", maxWidth: "1150px"}}
                                    className="px-5 py-5 border-radius-20 my-4">
-                            <Row><Col className="size-20-text semibold-text">Logo Iteration</Col></Row>
-                            <Row><Col className="size-20-text">“Sahabat Siber” = Cyber Buddy in Indonesian</Col></Row>
+                            <Row><Col className="size-17-text semibold-text">Logo Iteration</Col></Row>
+                            <Row><Col className="size-17-text">“Sahabat Siber” = Cyber Buddy in Indonesian</Col></Row>
                             <Image.PreviewGroup>
                                 <Row className="text-center my-4">
                                     <Container style={{maxWidth: "1000px"}}>
@@ -898,8 +891,8 @@ const TemplateWorks = () => {
                         <Container style={{boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", maxWidth: "1150px"}}
                                    className="px-5 py-5 border-radius-20 my-5">
                             <Row>
-                                <Col className="size-20-text semibold-text">Typography</Col>
-                                <Col className="size-20-text semibold-text">Main Color Palette</Col>
+                                <Col className="size-17-text semibold-text">Typography</Col>
+                                <Col className="size-17-text semibold-text">Main Color Palette</Col>
                             </Row>
                             <Row className="mt-4">
                                 <Col>
@@ -980,27 +973,27 @@ const TemplateWorks = () => {
             <Row id="test" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
                     <h1 className="semibold-text orange-color">test</h1>
-                    <p className="size-20-text">The evaluation was conducted by playtesting and interviewing sixteen
+                    <p className="size-17-text">The evaluation was conducted by playtesting and interviewing sixteen
                         11-12 years old children. Here are the insights:</p>
                     <Container style={{maxWidth: "1050px"}}>
                         <Row>
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">01</Col>
-                            <Col className="size-20-text">Most participants liked to play the game, quickly understood
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">01</Col>
+                            <Col className="size-17-text">Most participants liked to play the game, quickly understood
                                 how to play the game, and easily understood the learning content delivered.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">02</Col>
-                            <Col className="size-20-text">Half of the participants also felt that the scenarios were
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">02</Col>
+                            <Col className="size-17-text">Half of the participants also felt that the scenarios were
                                 relevant to experiences encountered in the real world.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">03</Col>
-                            <Col className="size-20-text">All participants successfully completed the game and 75% of
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">03</Col>
+                            <Col className="size-17-text">All participants successfully completed the game and 75% of
                                 them were interested in playing again in the future.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">04</Col>
-                            <Col className="size-20-text">Regarding learning goals, all participants could elaborate on
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">04</Col>
+                            <Col className="size-17-text">Regarding learning goals, all participants could elaborate on
                                 positive ways of interacting through the internet. However, they had difficulties
                                 responding appropriately to negative behaviour and content encountered (most still
                                 answered the act of being silent rather than reporting or discussing with their
@@ -1015,41 +1008,41 @@ const TemplateWorks = () => {
                 <Col>
                     <h1 className="semibold-text orange-color">reflection</h1>
 
-                    <p className="size-20-text semibold-text mt-3">Takeaways</p>
+                    <p className="size-17-text semibold-text mt-3">Takeaways</p>
                     <Container style={{maxWidth: "1050px"}}>
                         <Row>
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">01</Col>
-                            <Col className="size-20-text">I should have considered personalised learning, such as
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">01</Col>
+                            <Col className="size-17-text">I should have considered personalised learning, such as
                                 children's learning styles, so that games can provide a more effective learning process
                                 for various types of children's learning styles.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">02</Col>
-                            <Col className="size-20-text">I should have conducted validation for educational content in
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">02</Col>
+                            <Col className="size-17-text">I should have conducted validation for educational content in
                                 the game from educators, not just from psychologists.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">03</Col>
-                            <Col className="size-20-text">I should have tried to implement games using game engines
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">03</Col>
+                            <Col className="size-17-text">I should have tried to implement games using game engines
                                 other than Godot or waited for future developments of Godot, so that there are no more
                                 problems/limitations for mobile gamers.</Col>
                         </Row>
                     </Container>
 
-                    <p className="size-20-text semibold-text mt-5">Next Steps</p>
+                    <p className="size-17-text semibold-text mt-5">Next Steps</p>
                     <Container style={{maxWidth: "1050px"}}>
                         <Row>
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">01</Col>
-                            <Col className="size-20-text">Add more variety of choices to the Avatar Creator app.</Col>
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">01</Col>
+                            <Col className="size-17-text">Add more variety of choices to the Avatar Creator app.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">02</Col>
-                            <Col className="size-20-text">Implement the Playbox app to contain playable mini-games, such
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">02</Col>
+                            <Col className="size-17-text">Implement the Playbox app to contain playable mini-games, such
                                 as platformers or shooting games.</Col>
                         </Row>
                         <Row className="mt-4">
-                            <Col xs={1} className="size-20-text orange-color semibold-text text-center">03</Col>
-                            <Col className="size-20-text">Evaluate the game's usability using quantitative methods and
+                            <Col xs={1} className="size-17-text orange-color semibold-text text-center">03</Col>
+                            <Col className="size-17-text">Evaluate the game's usability using quantitative methods and
                                 involving larger samples to uncover usability issues that need to be addressed for
                                 future development.</Col>
                         </Row>
@@ -1062,7 +1055,7 @@ const TemplateWorks = () => {
                 <button size="large" shape="round"
                         className="ant-btn ant-btn-round ant-btn-default ant-btn-lg orange-button" type="button"
                         onClick={backToTopFunction}>
-                    <span className="semibold-text size-20-text">back to top</span>
+                    <span className="semibold-text size-17-text">back to top</span>
                 </button>
             </Row>
         </Container>

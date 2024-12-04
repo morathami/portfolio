@@ -49,7 +49,7 @@ const About = () => {
                         Tumblr blog, joined many The Sims gamer (“Simmer”) communities, and interacted with them. I
                         explored
                         my creative side by learning <b>Adobe Photoshop and 3D modelling tools</b> like Blender
-                        to <b><Link to="/ts4fashion">design
+                        to <b><Link to="/portfolio/ts4fashion">design
                             clothing</Link></b> for the game and created a <b><a href="https://issuu.com/morathami"
                                                                                 rel="noreferrer noopener"
                                                                                 target="_blank">digital magazine</a></b>

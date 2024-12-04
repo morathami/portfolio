@@ -60,7 +60,7 @@ function Header() {
                 </Container>
             </Navbar>
             <div className={`full-welcome bg-fav-gradient text-white justify-content-center ${centerActive ? "full-header-height" : ""}`}>
-                <Container className={`text-center justify-content-center ${centerActive ? "centered-container" : ""}`}>
+                <Container className={`${centerActive ? "centered-container" : ""}`}>
                     <Row>
                         <Col className={`${centerActive ? "text-center" : ""}`}>
                             <h1 className={`bold-text ${centerActive ? "size-60-text" : "size-50-text maxHeaderTitle"}`}>
