@@ -10,7 +10,6 @@ import ImageThami from '../assets/image-thami.jpg';
 
 function Home() {
     return (
-        // TODO add: PARTY PLANNER & WHISKERS & IMPRINTCORP
         <Container style={{maxWidth: "1000px", marginBottom: "180px"}}
                    className="text-center justify-content-center margin-top-200">
             <Row>

@@ -58,7 +58,7 @@ function AllWorks() {
                 year: '2024',
                 desc: 'Players simulate the role of an online shop owner specialising in customisable notebooks',
                 engine: 'Godot',
-                workLink: '/portfolio/imprint',
+                workLink: '/portfolio/imprintcorp',
                     hasVideo: true,
                 sourceLink: 'https://www.youtube.com/embed/5tO8TG5GmYg?si=A5m3y-UShMiPYDq_'
                 }}/></Col>
