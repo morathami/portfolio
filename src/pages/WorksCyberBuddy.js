@@ -14,7 +14,7 @@ const TemplateWorks = () => {
         <Container style={{marginTop: "120px", marginBottom: "120px"}}>
             <Row id="works-outline">
                 <Col className="bg-lightgrey py-4 px-5">
-                    <h1 className="semibold-text darkgrey-text-color">outline</h1>
+                    <h1 className="semibold-text darkgrey-text-color">Outline</h1>
                     <Anchor affix={false}>
                         <Link className="size-17-text" href="#overview" title="Overview"/>
                         <Link className="size-17-text" href="#design-process" title="Design Process"/>
@@ -48,7 +48,7 @@ const TemplateWorks = () => {
 
             <Row id="overview" style={{marginTop: "30px", marginBottom: "30px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">overview</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Overview</h1>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">PROBLEM</h5>
                     <p className="size-17-text">Although technology can form many opportunities, it exposes children to
                         many threats, including cyberbullying. For this reason, there is a need to give cyberbullying
@@ -86,9 +86,9 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="design-process" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">design process</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">Design Process</h1>
                     <div className="mt-4 text-center justify-content-center">
-                        <Image width={1223} preview={false}
+                    <Image width={1223} preview={false}
                                src="https://live.staticflickr.com/65535/52550402376_551a281b95_o.png"/>
                     </div>
                 </Col>
@@ -97,7 +97,7 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="emphatise" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">emphatise</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Emphatise</h1>
                     <p className="size-17-text">In order to understand the users and their educational need, I went
                         through two steps of process.</p>
                     <Container style={{maxWidth: "970px", marginTop: "50px"}}>
@@ -137,7 +137,7 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="define" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">define</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Define</h1>
                     <p className="size-17-text">Based on the findings from the user interview, I found that there are
                         four children's favoured game characteristics.</p>
                     <Container>
@@ -391,7 +391,7 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="ideate" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">ideate</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Ideate</h1>
                     <p className="size-17-text">With the user's requirements defined, I could brainstorm and come up
                         with potential solutions.</p>
                     <Container style={{maxWidth: "650px"}} className="my-5">
@@ -494,7 +494,7 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="prototype" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">prototype</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Prototype</h1>
 
                     <h5 className="semibold-text size-17-text mb-0 mt-4">ITERATION</h5>
                     <Container>
@@ -972,7 +972,7 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="test" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">test</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Test</h1>
                     <p className="size-17-text">The evaluation was conducted by playtesting and interviewing sixteen
                         11-12 years old children. Here are the insights:</p>
                     <Container style={{maxWidth: "1050px"}}>
@@ -1006,8 +1006,7 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="reflection" style={{marginTop: "50px", marginBottom: "50px"}}>
                 <Col>
-                    <h1 className="semibold-text orange-color">reflection</h1>
-
+                    <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Reflection</h1>
                     <p className="size-17-text semibold-text mt-3">Takeaways</p>
                     <Container style={{maxWidth: "1050px"}}>
                         <Row>

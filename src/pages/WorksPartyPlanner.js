@@ -4,7 +4,8 @@ import {Tag, Anchor, Image} from 'antd';
 import ImageThami from "../assets/image-thami.jpg";
 
 const TemplateWorks = () => {
-    // TODO PartyPlanner
+    // TODO PartyPlanner (Header Image)
+    // TODO PartyPlanner (All content images)
     const {Link} = Anchor;
 
     function backToTopFunction() {
@@ -48,7 +49,7 @@ const TemplateWorks = () => {
             <Row id="overview" style={{marginTop: "30px", marginBottom: "30px"}}>
                 <Col>
                     <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Overview</h1>
-                    <h5 className="semibold-text size-17-text mb-0 mt-5">OBJECTIVE</h5>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">OBJECTIVE</h5>
                     <p className="size-17-text">Examine the framework to develop collaborative storytelling games by
                         integrating theoretical methods (literature review, case study, and critical analysis) with
                         practical methods (designing game elements, coding, and reflective practice)</p>
