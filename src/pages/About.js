@@ -2,15 +2,42 @@ import React from 'react';
 import '../assets/about.css';
 import {Link} from "react-router-dom";
 import {Container, Row, Col} from 'react-bootstrap';
-import {Image, Tooltip} from 'antd';
+import {Button, Image, Tooltip} from 'antd';
+import {DownloadOutlined} from "@ant-design/icons";
+import ImageThami from "../assets/image-thami.jpg";
 
 const About = () => {
     return (
-        // TODO
-        <Container style={{marginTop: "120px", marginBottom: "120px"}}>
-            <Row>
+        <Container style={{marginBottom: "180px"}} className="margin-top-200">
+            <Row style={{maxWidth: "1000px"}} className="m-auto">
+                <Col style={{textAlign: "left"}} className="px-5 m-auto">
+                    <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">About me</h1>
+                    <p className="size-17-text mt-4 body-text-line-height">Hello! I’m Thami Endamora Daulay, though most
+                        people call me Thami. I’m an aspiring game developer based in Jakarta, Indonesia.</p>
+                    <p className="size-17-text mt-4 body-text-line-height">I began my gamedev-related journey with a
+                        degree in computer science in 2018 and later in September 2024, I officially received my
+                        master’s degree in digital media production from University College London, UK!</p>
+                    <p className="size-17-text mt-4 body-text-line-height">I’m always excited to collaborate or connect
+                        with like-minded individuals from anywhere in the world, so feel free to reach out!</p>
+                    <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
+                        <Row>
+                            <Col><a
+                                href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing"
+                                target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined"
+                                                                                  icon={<DownloadOutlined/>}
+                                                                                  className="pink-main-button mt-4">Download
+                                resume</Button></a></Col>
+                        </Row>
+                    </Container>
+                </Col>
+                <Col>
+                    <Image style={{borderRadius: "50px"}} width={480} height={500} preview={false} src={ImageThami}/>
+                </Col>
+            </Row>
+            
+            <Row style={{marginTop:"150px"}}>
                 <Col id="about-story">
-                    <p>Hi, there! My name is Thami Endamora Daulay. You can call me Thami👋🏻</p>
+                    <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">How it started</h1>
                     <p>My interest in <b>Game Design</b> started when I was just a child, sketching my own “game” and
                         performing “user testing” using Barbie dolls. Then, the first time I really got into video games
                         was in middle
@@ -23,10 +50,10 @@ const About = () => {
                         explored
                         my creative side by learning <b>Adobe Photoshop and 3D modelling tools</b> like Blender
                         to <b><Link to="/ts4fashion">design
-                            clothing</Link></b> for the game and created a<b><a href="https://issuu.com/morathami"
+                            clothing</Link></b> for the game and created a <b><a href="https://issuu.com/morathami"
                                                                                 rel="noreferrer noopener"
-                                                                                target="_blank"> digital magazine. </a></b>
-                        I even made a movie (“machinima”) out of the game! Well, I got too embarrassed later in high
+                                                                                target="_blank">digital magazine</a></b>
+                        . I even made a movie (“machinima”) out of the game! Well, I got too embarrassed later in high
                         school
                         and hid the video from my YouTube channel😂</p>
                     <p>Wanting to deepen my skills, I enrolled as a <b>computer science major</b> at university.
@@ -39,30 +66,16 @@ const About = () => {
                             Media: Production</b> at the
                         world-leading centre of digital media education in the vibrant city of London. It marked a
                         turning
-                        point in my journey, opening doors to international opportunities.</p>
-                    <p>Needless to say, I’m always excited to collaborate or connect with like-minded individuals from
-                        anywhere in the world,
-                        so feel free to reach out!</p>
+                        point in my journey, opening doors to international opportunities! :)</p>
                 </Col>
             </Row>
-
-            <Row>
-                <Col>
-                    <a href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing" target="_blank"
-                       rel="noreferrer noopener">
-                    <button size="large" shape="round"
-                            className="ant-btn ant-btn-round ant-btn-default ant-btn-lg my-5 orange-button"
-                            type="button">
-                        <span className="semibold-text size-20-text">Download resume as PDF</span>
-                    </button></a>
-                </Col>
-            </Row>
-            <Row style={{marginTop: "50px"}}>
+            
+            <Row style={{marginTop: "100px"}}>
                 <Col>
                     <Container className="px-0">
                         <Row>
                             <Col className="about-lst">
-                                <h1>education</h1>
+                                <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">Education</h1>
                                 <h2>Master's in Digital Media: Production (MA)</h2>
                                 <p>University College London (UCL)</p>
                                 <p>2023 - 2024</p>
@@ -74,7 +87,7 @@ const About = () => {
                         </Row>
                         <Row style={{marginTop: "90px"}}>
                             <Col className="about-lst">
-                                <h1>work experience</h1>
+                                <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">Work Experience</h1>
                                 <h2>Teaching Assistant Coordinator</h2>
                                 <p>University of Indonesia</p>
                                 <p>Aug 2022 - Feb 2023</p>
@@ -90,7 +103,7 @@ const About = () => {
                     <Container>
                         <Row>
                             <Col className="about-lst">
-                                <h1>skills</h1>
+                                <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Skills</h1>
                             </Col>
                         </Row>
                         <Row>
@@ -100,6 +113,7 @@ const About = () => {
                                 <p>Godot (GDScript)</p>
                                 <p>JavaScript (React & Vue.js)</p>
                                 <p>Python, Java</p>
+                                <p>HTML, CSS</p>
                             </Col>
                             <Col className="about-lst">
                                 <h2>Design</h2>
@@ -114,7 +128,7 @@ const About = () => {
                     <Container>
                         <Row style={{marginTop: "90px"}}>
                             <Col className="about-lst">
-                                <h1>tools</h1>
+                                <h1 className="bold-text size-36-text text-fav-gradient right-text-fav-gradient">Tools</h1>
                             </Col>
                         </Row>
                         <Row className="mt-3">

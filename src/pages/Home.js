@@ -25,8 +25,8 @@ function Home() {
                         with like-minded individuals from anywhere in the world, so feel free to reach out!</p>
                     <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
                         <Row>
-                            <Col lg={5}><Link to="/portfolio/about" target="_blank" rel="noreferrer noopener"><Button
-                                color="primary" variant="outlined" className="pink-secondary-button mt-4">Read
+                            <Col lg={5}><Link to="/portfolio/about"><Button color="primary" variant="outlined"
+                                                                            className="pink-secondary-button mt-4">Read
                                 more</Button></Link></Col>
                             <Col lg={7}><a
                                 href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing"
@@ -115,9 +115,10 @@ function Home() {
 
             <Row style={{marginTop: "100px"}}>
                 <Col className="px-0">
-                    <Link to="/portfolio/works" target="_blank" rel="noreferrer noopener"><Button
-                        color="primary" variant="outlined" className="pink-secondary-button px-0"
-                        style={{width: "100%", height: "50px"}}>View more projects</Button></Link>
+                    <Link to="/portfolio/works"><Button color="primary" variant="outlined"
+                                                        className="pink-secondary-button px-0"
+                                                        style={{width: "100%", height: "50px"}}>View more
+                        projects</Button></Link>
                 </Col>
             </Row>
 

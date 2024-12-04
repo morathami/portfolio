@@ -75,8 +75,12 @@ body, html, .main {
     color: #F6AA81 !important;
 }
 
-a:hover {
+a, .footer-link:hover {
     color: #EE809E !important;
+}
+
+a:hover {
+    color: #AC5E73 !important;
 }
 
 .orange-button {
@@ -218,6 +222,18 @@ a:hover {
     background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 40%, rgba(253, 211, 99, 1) 65%);
     background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 40%, rgba(253, 211, 99, 1) 65%);
     background: linear-gradient(90deg, rgba(236, 132, 152, 1) 40%, rgba(253, 211, 99, 1) 65%);
+}
+
+.right-text-fav-gradient {
+    background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 20%);
+    background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 20%);
+    background: linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 20%);
+}
+
+.left-text-fav-gradient {
+    background: -moz-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 30%);
+    background: -webkit-linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 30%);
+    background: linear-gradient(90deg, rgba(236, 132, 152, 1) 0%, rgba(253, 211, 99, 1) 30%);
 }
 
 .ant-image#img-content {
