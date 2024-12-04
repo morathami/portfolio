@@ -12,6 +12,7 @@ export const headerTextLst = {
     "/portfolio/pakobox":"Pakobox Game (WIP)",
     "/portfolio/partyplanner": "Party Planner Game",
     "/portfolio/whiskers": "Whiskers Game",
+    "/portfolio/imprintcorp": "ImprintCorp Game"
 }
 
 export const subheaderTextLst = {
@@ -28,6 +29,7 @@ export const subheaderTextLst = {
     "/portfolio/pakobox":"a wholesome packaging VR game design concept",
     "/portfolio/partyplanner": "a two-players collaborative storytelling game",
     "/portfolio/whiskers": "a first-person cat simulation exploration game",
+    "/portfolio/imprintcorp": "a game centred around running a notebook shop"
 }
 
 export const titleLst = {

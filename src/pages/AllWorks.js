@@ -56,7 +56,7 @@ function AllWorks() {
             <Row style={{marginTop: "50px"}}>
                 <Col className="px-0"><WorksSquare workConfig={{
                 title: 'ImprintCorp',
-                year: '2024',
+                year: '2023',
                 desc: 'Players simulate the role of an online shop owner specialising in customisable notebooks',
                 engine: 'Godot',
                 workLink: '/portfolio/imprintcorp',
