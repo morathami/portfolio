@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1f42134c.css",
-    "main.js": "/portfolio/static/js/main.b13082c6.js",
+    "main.js": "/portfolio/static/js/main.09993cb3.js",
     "static/js/787.5c540963.chunk.js": "/portfolio/static/js/787.5c540963.chunk.js",
     "static/media/whiskers-eat-2.png": "/portfolio/static/media/whiskers-eat-2.e459312040bed87bed7a.png",
     "static/media/whiskers-eat-1.png": "/portfolio/static/media/whiskers-eat-1.1c639df32df41e960625.png",
@@ -42,20 +42,23 @@
     "static/media/image-edumonster.png": "/portfolio/static/media/image-edumonster.429a3100f52d143e3983.png",
     "static/media/image-thami.jpg": "/portfolio/static/media/image-thami.428a0c1d268681ad5fd3.jpg",
     "static/media/partyplanner-ending-3.png": "/portfolio/static/media/partyplanner-ending-3.0b0ea5e7aad98312eb13.png",
+    "static/media/imprint-image-1.png": "/portfolio/static/media/imprint-image-1.38f1045523ec78213456.png",
     "static/media/partyplanner-ending-2.png": "/portfolio/static/media/partyplanner-ending-2.a8c74e28f64a820bbeec.png",
     "static/media/partyplanner-dev-5.png": "/portfolio/static/media/partyplanner-dev-5.4fb44f5238beb633794b.png",
     "static/media/partyplanner-dev-6.png": "/portfolio/static/media/partyplanner-dev-6.05eb192d861dc71ab1f1.png",
     "static/media/partyplanner-dev-1.png": "/portfolio/static/media/partyplanner-dev-1.aee8bc169dc40a9efb84.png",
+    "static/media/imprint-image-2.png": "/portfolio/static/media/imprint-image-2.94ec6d5f2ed870b8cb56.png",
+    "static/media/imprint-image-3.png": "/portfolio/static/media/imprint-image-3.1cf93204a6fddc472b13.png",
     "static/media/partyplanner-narrative.png": "/portfolio/static/media/partyplanner-narrative.98391742acb5f55076dd.png",
     "static/media/whiskers-eat-3.png": "/portfolio/static/media/whiskers-eat-3.91e138638c41f99245b3.png",
     "static/media/partyplanner-flow.png": "/portfolio/static/media/partyplanner-flow.31ee04fdc7c68ae023b4.png",
     "index.html": "/portfolio/index.html",
     "main.1f42134c.css.map": "/portfolio/static/css/main.1f42134c.css.map",
-    "main.b13082c6.js.map": "/portfolio/static/js/main.b13082c6.js.map",
+    "main.09993cb3.js.map": "/portfolio/static/js/main.09993cb3.js.map",
     "787.5c540963.chunk.js.map": "/portfolio/static/js/787.5c540963.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f42134c.css",
-    "static/js/main.b13082c6.js"
+    "static/js/main.09993cb3.js"
   ]
 }
