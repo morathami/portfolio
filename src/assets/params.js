@@ -61,9 +61,9 @@ export const imageLinkLst = {
     "/portfolio/ts4fashion":"https://live.staticflickr.com/65535/52606280752_0b767a2ab6_o.png",
     "/portfolio/edumonster":"https://live.staticflickr.com/65535/52610574859_03fd54229e_o.png",
     "/portfolio/pakobox":"https://live.staticflickr.com/65535/52631671757_59f90272e1_o.png",
-    "/portfolio/partyplanner": "",
-    "/portfolio/whiskers": "",
-    "/portfolio/imprintcorp": ""
+    "/portfolio/partyplanner": "https://live.staticflickr.com/65535/54183463010_c28ea460b8_o.png",
+    "/portfolio/whiskers": "https://live.staticflickr.com/65535/54183294588_56c9d9350f_o.png",
+    "/portfolio/imprintcorp": "https://live.staticflickr.com/65535/54183307924_a2d8ae038a_o.png"
 }
 
 export const imageCardLst = {

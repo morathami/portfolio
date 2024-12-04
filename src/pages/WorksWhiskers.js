@@ -14,7 +14,6 @@ import ImageGame5 from "../assets/Images/whiskers-game-5.png";
 import ImageGame6 from "../assets/Images/whiskers-game-6.png";
 
 const TemplateWorks = () => {
-    // TODO Whiskers (Header Image)
     const {Link} = Anchor;
 
     function backToTopFunction() {

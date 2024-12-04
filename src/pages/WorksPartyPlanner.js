@@ -35,7 +35,6 @@ import ImageDev9 from "../assets/Images/partyplanner-dev-9.png";
 
 
 const TemplateWorks = () => {
-    // TODO PartyPlanner (Header Image)
     const {Link} = Anchor;
 
     function backToTopFunction() {
