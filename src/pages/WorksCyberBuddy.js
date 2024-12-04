@@ -65,6 +65,8 @@ const TemplateWorks = () => {
                     <p className="size-17-text">2022 (+- 5 months)</p>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">ROLE</h5>
                     <p className="size-17-text">Researcher, Game Designer, Programmer</p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">RESOURCES</h5>
+                    <p className="size-17-text">Flaticon (Premium), Outsourced Artist</p>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">TOOLS</h5>
                     <p className="size-17-text">Godot, Figma, Photoshop</p>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">PLATFORM</h5>
@@ -88,7 +90,7 @@ const TemplateWorks = () => {
                 <Col>
                     <h1 className="bold-text size-36-text text-fav-gradient left-text-fav-gradient">Design Process</h1>
                     <div className="mt-4 text-center justify-content-center">
-                    <Image width={1223} preview={false}
+                        <Image width={1223} preview={false}
                                src="https://live.staticflickr.com/65535/52550402376_551a281b95_o.png"/>
                     </div>
                 </Col>

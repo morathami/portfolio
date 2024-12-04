@@ -89,6 +89,8 @@ const TemplateWorks = () => {
                     <p className="size-17-text">Researcher, Game Designer, Programmer</p>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">TOOLS</h5>
                     <p className="size-17-text">Unity, Microsoft Visual Studio, Figma, Adobe Photoshop</p>
+                    <h5 className="semibold-text size-17-text mb-0 mt-4">RESOURCES</h5>
+                    <p className="size-17-text">Flaticon (Premium), Outsourced Artist</p>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">GENRE</h5>
                     <p className="size-17-text">2-Player Collaborative, Interactive Storytelling, Puzzle</p>
                     <h5 className="semibold-text size-17-text mb-0 mt-4">PLATFORM</h5>
@@ -431,20 +433,30 @@ const TemplateWorks = () => {
             <hr/>
             <Row id="documentation" style={{marginTop: "50px"}}>
                 <Col>
-                    <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">Development Documentation</h1>
+                    <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">Development
+                        Documentation</h1>
                 </Col>
             </Row>
             <Row className="mt-3 justify-content-center text-center" style={{marginBottom: "50px"}}>
                 <Image.PreviewGroup>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev1} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev2} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev3} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev4} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev5} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev6} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev7} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev8} style={{border:"1px solid black"}}/></Col>
-                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev9} style={{border:"1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev1}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev2}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev3}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev4}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev5}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev6}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev7}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev8}
+                                                 style={{border: "1px solid black"}}/></Col>
+                    <Col className="mb-4"><Image width={400} height="100%" src={ImageDev9}
+                                                 style={{border: "1px solid black"}}/></Col>
                 </Image.PreviewGroup>
             </Row>
 
