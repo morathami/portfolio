@@ -13,7 +13,6 @@ import WorksEdumonster from './pages/WorksEdumonster';
 import WorksPakobox from './pages/WorksPakobox';
 import WorksPartyPlanner from './pages/WorksPartyPlanner';
 import WorksWhiskers from './pages/WorksWhiskers';
-import WorksImprintCorp from './pages/WorksImprintCorp';
 import AllWorks from "./pages/AllWorks";
 import NotFound from './pages/NotFound';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -38,7 +37,6 @@ export default function App() {
           <Route path="pakobox" element={<WorksPakobox />} />
           <Route path="partyplanner" element={<WorksPartyPlanner />} />
           <Route path="whiskers" element={<WorksWhiskers />} />
-          <Route path="imprintcorp" element={<WorksImprintCorp />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

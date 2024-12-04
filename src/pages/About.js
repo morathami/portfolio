@@ -3,7 +3,7 @@ import '../assets/about.css';
 import {Link} from "react-router-dom";
 import {Container, Row, Col} from 'react-bootstrap';
 import {Button, Image, Tooltip} from 'antd';
-import {DownloadOutlined} from "@ant-design/icons";
+import {DownloadOutlined, GithubFilled, LinkedinFilled, MailFilled, MediumSquareFilled} from "@ant-design/icons";
 import ImageThami from "../assets/Images/image-thami.jpg";
 
 const About = () => {
@@ -95,6 +95,16 @@ const About = () => {
                                 <h2 style={{marginTop: "30px"}}>Frontend Engineer Intern</h2>
                                 <p>Core Initiative Studio, ID</p>
                                 <p>Jul 2021 - Nov 2021</p>
+                            </Col>
+                        </Row>
+
+                        <Row style={{marginTop: "90px"}}>
+                            <Col className="about-lst">
+                                <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">Contact</h1>
+                                <p><MailFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="mailto:thamidaulay@gmail.com" target="_blank" rel="noreferrer noopener" title="Email">thamidaulay@gmail.com</a></p>
+                                <p><LinkedinFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="https://www.linkedin.com/in/thami-endamora/" target="_blank" rel="noreferrer noopener" title="Linkedin">linkedin.com/in/thami-endamora</a></p>
+                                <p><GithubFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="https://github.com/morathami" target="_blank" rel="noreferrer noopener" title="Github">github.com/morathami</a></p>
+                                <p><MediumSquareFilled /><a className="footer-link" style={{marginLeft:"5px"}} href="https://medium.com/@thamiendamora" target="_blank" rel="noreferrer noopener" title="Medium">medium.com/@thamiendamora</a></p>
                             </Col>
                         </Row>
                     </Container>
