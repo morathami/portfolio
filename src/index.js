@@ -17,7 +17,7 @@ import WorksImprintCorp from './pages/WorksImprintCorp';
 import AllWorks from "./pages/AllWorks";
 import NotFound from './pages/NotFound';
 import './index.css';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 export default function App() {
@@ -46,7 +46,7 @@ export default function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <App/>
         </Router>
     </React.StrictMode>
