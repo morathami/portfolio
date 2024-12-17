@@ -16,41 +16,40 @@ import WorksWhiskers from './pages/WorksWhiskers';
 import WorksImprintCorp from './pages/WorksImprintCorp';
 import AllWorks from "./pages/AllWorks";
 import NotFound from './pages/NotFound';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/portfolio/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="works" element={<AllWorks />} />
-          <Route path="lighthearted" element={<WorksLighthearted />} />
-          <Route path="overtower" element={<WorksOvertower />} />
-          <Route path="webglmodel" element={<WorksWebGLModel />} />
-          <Route path="cyberbuddy" element={<WorksCyberBuddy />} />
-          <Route path="ts4fashion" element={<WorksTS4Fashion />} />
-          <Route path="edumonster" element={<WorksEdumonster />} />
-          <Route path="pakobox" element={<WorksPakobox />} />
-          <Route path="partyplanner" element={<WorksPartyPlanner />} />
-          <Route path="whiskers" element={<WorksWhiskers />} />
-          <Route path="imprintcorp" element={<WorksImprintCorp />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <Routes>
+            <Route path="/portfolio/" element={<Layout/>}>
+                <Route index element={<Home/>}/>
+                <Route path="about" element={<About/>}/>
+                <Route path="works" element={<AllWorks/>}/>
+                <Route path="lighthearted" element={<WorksLighthearted/>}/>
+                <Route path="overtower" element={<WorksOvertower/>}/>
+                <Route path="webglmodel" element={<WorksWebGLModel/>}/>
+                <Route path="cyberbuddy" element={<WorksCyberBuddy/>}/>
+                <Route path="ts4fashion" element={<WorksTS4Fashion/>}/>
+                <Route path="edumonster" element={<WorksEdumonster/>}/>
+                <Route path="pakobox" element={<WorksPakobox/>}/>
+                <Route path="partyplanner" element={<WorksPartyPlanner/>}/>
+                <Route path="whiskers" element={<WorksWhiskers/>}/>
+                <Route path="imprintcorp" element={<WorksImprintCorp/>}/>
+                <Route path="*" element={<NotFound/>}/>
+            </Route>
+        </Routes>
+    );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Router basename={process.env.PUBLIC_URL}>
+            <App/>
+        </Router>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
