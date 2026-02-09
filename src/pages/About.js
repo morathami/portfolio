@@ -22,7 +22,7 @@ const About = () => {
                     <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
                         <Row>
                             <Col><a
-                                href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1kfnZhZ-usf4uCGtnV3VO7AbsIUU3XHHU/view?usp=sharing"
                                 target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined"
                                                                                   icon={<DownloadOutlined/>}
                                                                                   className="pink-main-button mt-4">Download
@@ -88,7 +88,11 @@ const About = () => {
                         <Row style={{marginTop: "90px"}}>
                             <Col className="about-lst">
                                 <h1 className="bold-text size-36-text text-fav-gradient about-text-fav-gradient">Work Experience</h1>
-                                <h2>Teaching Assistant Coordinator</h2>
+                                <h2>Lecturer</h2>
+                                <p>Bunda Mulia University</p>
+                                <p>Jul 2025 - current</p>
+                            
+                                <h2 style={{marginTop: "30px"}}>Teaching Assistant Coordinator</h2>
                                 <p>University of Indonesia</p>
                                 <p>Aug 2022 - Feb 2023</p>
 
