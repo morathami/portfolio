@@ -28,7 +28,7 @@ function Home() {
                                                                             className="pink-secondary-button mt-4">Read
                                 more</Button></Link></Col>
                             <Col lg={7}><a
-                                href="https://drive.google.com/file/d/1LRhe3Z9bRTyz6o9ma5OcFGotcZ8e4-iy/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1kfnZhZ-usf4uCGtnV3VO7AbsIUU3XHHU/view?usp=sharing"
                                 target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined"
                                                                                   icon={<DownloadOutlined/>}
                                                                                   className="pink-main-button mt-4">Download
