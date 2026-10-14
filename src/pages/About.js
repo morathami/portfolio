@@ -22,7 +22,7 @@ const About = () => {
                     <Container style={{maxWidth: "60%"}} className="mx-0 px-0">
                         <Row>
                             <Col><a
-                                href="https://drive.google.com/file/d/1kfnZhZ-usf4uCGtnV3VO7AbsIUU3XHHU/view?usp=sharing"
+                                href="https://drive.google.com/drive/folders/14CUMOvBKc9EcGkEnKSYKWr0JrN1q6yJc?usp=sharing"
                                 target="_blank" rel="noreferrer noopener"><Button color="primary" variant="outlined"
                                                                                   icon={<DownloadOutlined/>}
                                                                                   className="pink-main-button mt-4">Download
